@@ -79,4 +79,4 @@ async def on_message(message):
         patch_notes_link = fetch.get_latest_patch_notes()
         patch_notes_link = '3 most recent patches:\n'+patch_notes_link
         await client.send_message(message.channel, patch_notes_link)
-client.run('MzYzMTEzNDY0NTg0OTk0ODE4.DLMxNA.K-z0tleRpvrNykggsmUP5VZ56SI')
+client.run('MzcyMTI0ODMwMTcyMTg0NjA2.DM_nxw.V6mAAftwOLg2zfPJyRs0CqeR7qw')
