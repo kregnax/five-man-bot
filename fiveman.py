@@ -15,9 +15,12 @@ from hots_build_builder import BuildBuilder
 
 client = discord.Client()
 configs = json_loader.get_json("config.json")
+keys = json_loader.get_json("keys.json")
 text_commands = json_loader.get_json("text_commands.json")
 heroes_json = json_loader.get_json("heroes.json")
 build_builder = BuildBuilder()
+
+KEY = keys['five-man']
 
 @client.event
 async def on_ready():
@@ -79,4 +82,4 @@ async def on_message(message):
         patch_notes_link = fetch.get_latest_patch_notes()
         patch_notes_link = '3 most recent patches:\n'+patch_notes_link
         await client.send_message(message.channel, patch_notes_link)
-client.run('MzcyMTI0ODMwMTcyMTg0NjA2.DM_nxw.V6mAAftwOLg2zfPJyRs0CqeR7qw')
+client.run(KEY)
