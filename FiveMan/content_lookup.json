@@ -1,0 +1,320 @@
+[{
+		"abathur": {
+			"storm-spy": 1
+		}
+	}, {
+		"alarak": {
+			"storm-spy": 2
+		}
+	}, {
+		"ana": {
+			"storm-spy": 72
+		}
+	}, {
+		"anubarak": {
+			"storm-spy": 3
+		}
+	}, {
+		"artanis": {
+			"storm-spy": 4
+		}
+	}, {
+		"arthas": {
+			"storm-spy": 5
+		}
+	}, {
+		"auriel": {
+			"storm-spy": 6
+		}
+	}, {
+		"azmodan": {
+			"storm-spy": 7
+		}
+	}, {
+		"brightwing": {
+			"storm-spy": 8
+		}
+	}, {
+		"cassia": {
+			"storm-spy": 9
+		}
+	}, {
+		"cho": {
+			"hots-cntr": "chogall",
+			"hots-pch-nts": "cho",
+			"icy-veins": "cho",
+			"storm-spy": 11
+		}
+	}, {
+		"chromie": {
+			"storm-spy": 12
+		}
+	}, {
+		"dehaka": {
+			"storm-spy": 14
+		}
+	}, {
+		"diablo": {
+			"storm-spy": 15
+		}
+	}, {
+		"dva": {
+			"storm-spy": 13
+		}
+	}, {
+		"etc": {
+			"hots-cntr": "etc",
+			"hots-pch-nts": "etc",
+			"icy-veins": "e-t-c",
+			"storm-spy": 16
+		}
+	}, {
+		"falstad": {
+			"storm-spy": 17
+		}
+	}, {
+		"gall": {
+			"hots-cntr": "chogall",
+			"hots-pch-nts": "gall",
+			"icy-veins": "gall",
+			"storm-spy": 18
+		}
+	}, {
+		"garrosh": {
+			"storm-spy": 19
+		}
+	}, {
+		"gazlowe": {
+			"storm-spy": 20
+		}
+	}, {
+		"genji": {
+			"storm-spy": 21
+		}
+	}, {
+		"greymane": {
+			"storm-spy": 22
+		}
+	}, {
+		"guldan": {
+			"storm-spy": 23
+		}
+	}, {
+		"sgthammer": {
+			"hots-cntr": "sgthammer",
+			"hots-pch-nts": "sgthammer",
+			"icy-veins": "sgt-hammer",
+			"storm-spy": 49
+		}
+	}, {
+		"illidan": {
+			"storm-spy": 24
+		}
+	}, {
+		"jaina": {
+			"storm-spy": 25
+		}
+	}, {
+		"johanna": {
+			"storm-spy": 26
+		}
+	}, {
+		"junkrat": {
+			"storm-spy": 73
+		}
+	}, {
+		"kaelthas": {
+			"storm-spy": 27
+		}
+	}, {
+		"kelthuzad": {
+			"hots-cntr": "kelthuzad",
+			"hots-pch-nts": "kelthuzad",
+			"icy-veins": "kel-thuzad",
+			"storm-spy": 71
+		}
+	}, {
+		"kerrigan": {
+			"storm-spy": 28
+		}
+	}, {
+		"kharazim": {
+			"storm-spy": 29
+		}
+	}, {
+		"leoric": {
+			"storm-spy": 30
+		}
+	}, {
+		"lili": {
+			"hots-cntr": "lili",
+			"hots-pch-nts": "lili",
+			"icy-veins": "li-li",
+			"storm-spy": 31
+		}
+	}, {
+		"liming": {
+			"hots-cntr": "liming",
+			"hots-pch-nts": "liming",
+			"icy-veins": "li-ming",
+			"storm-spy": 32
+		}
+	}, {
+		"lucio": {
+			"storm-spy": 34
+		}
+	}, {
+		"lunara": {
+			"storm-spy": 35
+		}
+	}, {
+		"malfurion": {
+			"storm-spy": 36
+		}
+	}, {
+		"malthael": {
+			"storm-spy": 37
+		}
+	}, {
+		"medivh": {
+			"storm-spy": 38
+		}
+	}, {
+		"ltmorales": {
+			"hots-cntr": "ltmorales",
+			"hots-pch-nts": "ltmorales",
+			"icy-veins": "lt-morales",
+			"storm-spy": 33
+		}
+	}, {
+		"muradin": {
+			"storm-spy": 39
+		}
+	}, {
+		"murky": {
+			"storm-spy": 40
+		}
+	}, {
+		"nazeebo": {
+			"storm-spy": 41
+		}
+	}, {
+		"nova": {
+			"storm-spy": 42
+		}
+	}, {
+		"probius": {
+			"storm-spy": 43
+		}
+	}, {
+		"ragnaros": {
+			"storm-spy": 44
+		}
+	}, {
+		"raynor": {
+			"storm-spy": 45
+		}
+	}, {
+		"rehgar": {
+			"storm-spy": 46
+		}
+	}, {
+		"rexxar": {
+			"storm-spy": 47
+		}
+	}, {
+		"samuro": {
+			"storm-spy": 48
+		}
+	}, {
+		"sonya": {
+			"storm-spy": 50
+		}
+	}, {
+		"stitches": {
+			"storm-spy": 51
+		}
+	}, {
+		"stukov": {
+			"storm-spy": 52
+		}
+	}, {
+		"sylvanas": {
+			"storm-spy": 53
+		}
+	}, {
+		"tassadar": {
+			"storm-spy": 54
+		}
+	}, {
+		"thebutcher": {
+			"hots-cntr": "thebutcher",
+			"hots-pch-nts": "butcher",
+			"icy-veins": "the-butcher",
+			"storm-spy": 55
+		}
+	}, {
+		"thrall": {
+			"storm-spy": 57
+		}
+	}, {
+		"thelostvikings": {
+			"hots-cntr": "thelostvikings",
+			"hots-pch-nts": "thelostvikings",
+			"icy-veins": "the-lost-vikings",
+			"storm-spy": 56
+		}
+	}, {
+		"tracer": {
+			"storm-spy": 58
+		}
+	}, {
+		"tychus": {
+			"storm-spy": 59
+		}
+	}, {
+		"tyrael": {
+			"storm-spy": 60
+		}
+	}, {
+		"tyrande": {
+			"storm-spy": 61
+		}
+	}, {
+		"uther": {
+			"storm-spy": 62
+		}
+	}, {
+		"valeera": {
+			"storm-spy": 63
+		}
+	}, {
+		"valla": {
+			"storm-spy": 64
+		}
+	}, {
+		"varian": {
+			"storm-spy": 65
+		}
+	}, {
+		"xul": {
+			"storm-spy": 66
+		}
+	}, {
+		"zagara": {
+			"storm-spy": 67
+		}
+	}, {
+		"zarya": {
+			"storm-spy": 68
+		}
+	}, {
+		"zeratul": {
+			"storm-spy": 69
+		}
+	}, {
+		"zuljin": {
+			"storm-spy": 70
+		}
+	}
+]
