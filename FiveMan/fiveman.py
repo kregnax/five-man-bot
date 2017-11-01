@@ -12,7 +12,6 @@ from hots_build_builder import BuildBuilder
 CLIENT = discord.Client()
 CONFIGS = json_loader.get_json("config.json")
 JSON_KEYS = json_loader.get_json("keys.json")
-#TEXT_COMMANDS = json_loader.get_json("text_commands.json")
 HEROES_JSON = json_loader.get_json("heroes.json")
 BUILD_BUILDER = BuildBuilder()
 
@@ -20,8 +19,7 @@ KEY = JSON_KEYS['five-man']
 JAWS_VARS = ['JAWSDB_NAME', 'JAWSDB_PASS', 'JAWSDB_HOST', 'JAWSDB_USER']
 JAWS_VALS = [os.environ.get(key) for key in JAWS_VARS]
 JAWS_DICT = dict(zip(JAWS_VARS, JAWS_VALS))
-DB_CONN = db_worker.get_connection(JAWS_DICT)
-TEXT_COMMANDS = db_worker.get_text_commands_dict(DB_CONN)
+TEXT_COMMANDS = db_worker.get_text_commands_dict(db_worker.get_connection(JAWS_DICT))
 
 @CLIENT.event
 async def on_ready():
@@ -46,12 +44,10 @@ async def on_message(message):
         if(str(message.author) == "kregnax#2710"):
             cmd_in = message.content.split()
             if(cmd_in[0] == "!addtxtcmd"):
-                TEXT_COMMANDS[cmd_in[1]] = ''.join(
-                    w + ' ' for w in cmd_in[2:]).strip()
-                temp_json = json.dumps(TEXT_COMMANDS)
-                temp_json = json.loads(temp_json)
-                with open('text_commands.json', 'w') as f:
-                    json.dump(temp_json, f, indent=4)
+                text_command = cmd_in[1]
+                text_output = ''.join(w + ' ' for w in cmd_in[2:]).strip()
+                TEXT_COMMANDS[text_command] = text_output
+                db_worker.add_new_text_command(db_worker.get_connection(JAWS_DICT), text_command, text_output)
             else:
                 await CLIENT.send_message(message.channel, "Unrecognized command: {}".format(cmd_in[0]))
         else:
