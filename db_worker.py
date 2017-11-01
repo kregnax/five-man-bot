@@ -15,6 +15,7 @@ def get_text_commands_dict(db_conn):
             result = cursor.fetchall()
             text_commands = dict((y,z) for x, y, z in result)
     finally:
+        cursor.close()
         db_conn.close()
     return text_commands
 
@@ -27,4 +28,5 @@ def add_new_text_command(db_conn, text_command, text_output):
     except pymysql.Error as err:
         print("SQL Error: "+str(err))
     finally:
+        cursor.close()
         db_conn.close()
