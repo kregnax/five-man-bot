@@ -1,578 +1,433 @@
-[
-    {
-        "abathur": {
-            "hots-cntr": "abathur",
-            "hots-pch-nts": "abathur",
-            "icy-veins": "abathur",
-            "storm-spy": 1
-        }
-    },
-    {
-        "alarak": {
-            "hots-cntr": "alarak",
-            "hots-pch-nts": "alarak",
-            "icy-veins": "alarak",
-            "storm-spy": 2
-        }
-    },
-    {
-        "ana": {
-            "hots-cntr": "ana",
-            "hots-pch-nts": "ana",
-            "icy-veins": "ana",
-            "storm-spy": 72
-        }
-    },
-    {
-        "anubarak": {
-            "hots-cntr": "anubarak",
-            "hots-pch-nts": "anubarak",
-            "icy-veins": "anubarak",
-            "storm-spy": 3
-        }
-    },
-    {
-        "artanis": {
-            "hots-cntr": "artanis",
-            "hots-pch-nts": "artanis",
-            "icy-veins": "artanis",
-            "storm-spy": 4
-        }
-    },
-    {
-        "arthas": {
-            "hots-cntr": "arthas",
-            "hots-pch-nts": "arthas",
-            "icy-veins": "arthas",
-            "storm-spy": 5
-        }
-    },
-    {
-        "auriel": {
-            "hots-cntr": "auriel",
-            "hots-pch-nts": "auriel",
-            "icy-veins": "auriel",
-            "storm-spy": 6
-        }
-    },
-    {
-        "azmodan": {
-            "hots-cntr": "azmodan",
-            "hots-pch-nts": "azmodan",
-            "icy-veins": "azmodan",
-            "storm-spy": 7
-        }
-    },
-    {
-        "brightwing": {
-            "hots-cntr": "brightwing",
-            "hots-pch-nts": "brightwing",
-            "icy-veins": "brightwing",
-            "storm-spy": 8
-        }
-    },
-    {
-        "cassia": {
-            "hots-cntr": "cassia",
-            "hots-pch-nts": "cassia",
-            "icy-veins": "cassia",
-            "storm-spy": 9
-        }
-    },
-    {
-        "cho": {
-            "hots-cntr": "cho",
-            "hots-pch-nts": "cho",
-            "icy-veins": "cho",
-            "storm-spy": 11
-        }
-    },
-    {
-        "chromie": {
-            "hots-cntr": "chromie",
-            "hots-pch-nts": "chromie",
-            "icy-veins": "chromie",
-            "storm-spy": 12
-        }
-    },
-    {
-        "dehaka": {
-            "hots-cntr": "dehaka",
-            "hots-pch-nts": "dehaka",
-            "icy-veins": "dehaka",
-            "storm-spy": 14
-        }
-    },
-    {
-        "diablo": {
-            "hots-cntr": "diablo",
-            "hots-pch-nts": "diablo",
-            "icy-veins": "diablo",
-            "storm-spy": 15
-        }
-    },
-    {
-        "dva": {
-            "hots-cntr": "dva",
-            "hots-pch-nts": "dva",
-            "icy-veins": "dva",
-            "storm-spy": 13
-        }
-    },
-    {
-        "etc": {
-            "hots-cntr": "etc",
-            "hots-pch-nts": "etc",
-            "icy-veins": "etc",
-            "storm-spy": 16
-        }
-    },
-    {
-        "falstad": {
-            "hots-cntr": "falstad",
-            "hots-pch-nts": "falstad",
-            "icy-veins": "falstad",
-            "storm-spy": 17
-        }
-    },
-    {
-        "gall": {
-            "hots-cntr": "gall",
-            "hots-pch-nts": "gall",
-            "icy-veins": "gall",
-            "storm-spy": 18
-        }
-    },
-    {
-        "garrosh": {
-            "hots-cntr": "garrosh",
-            "hots-pch-nts": "garrosh",
-            "icy-veins": "garrosh",
-            "storm-spy": 19
-        }
-    },
-    {
-        "gazlowe": {
-            "hots-cntr": "gazlowe",
-            "hots-pch-nts": "gazlowe",
-            "icy-veins": "gazlowe",
-            "storm-spy": 20
-        }
-    },
-    {
-        "genji": {
-            "hots-cntr": "genji",
-            "hots-pch-nts": "genji",
-            "icy-veins": "genji",
-            "storm-spy": 21
-        }
-    },
-    {
-        "greymane": {
-            "hots-cntr": "greymane",
-            "hots-pch-nts": "greymane",
-            "icy-veins": "greymane",
-            "storm-spy": 22
-        }
-    },
-    {
-        "guldan": {
-            "hots-cntr": "guldan",
-            "hots-pch-nts": "guldan",
-            "icy-veins": "guldan",
-            "storm-spy": 23
-        }
-    },
-    {
-        "sgthammer": {
-            "hots-cntr": "sgthammer",
-            "hots-pch-nts": "sgthammer",
-            "icy-veins": "sgthammer",
-            "storm-spy": 49
-        }
-    },
-    {
-        "illidan": {
-            "hots-cntr": "illidan",
-            "hots-pch-nts": "illidan",
-            "icy-veins": "illidan",
-            "storm-spy": 24
-        }
-    },
-    {
-        "jaina": {
-            "hots-cntr": "jaina",
-            "hots-pch-nts": "jaina",
-            "icy-veins": "jaina",
-            "storm-spy": 25
-        }
-    },
-    {
-        "johanna": {
-            "hots-cntr": "johanna",
-            "hots-pch-nts": "johanna",
-            "icy-veins": "johanna",
-            "storm-spy": 26
-        }
-    },
-    {
-        "junkrat": {
-            "hots-cntr": "junkrat",
-            "hots-pch-nts": "junkrat",
-            "icy-veins": "junkrat",
-            "storm-spy": 73
-        }
-    },
-    {
-        "kaelthas": {
-            "hots-cntr": "kaelthas",
-            "hots-pch-nts": "kaelthas",
-            "icy-veins": "kaelthas",
-            "storm-spy": 27
-        }
-    },
-    {
-        "kelthuzad": {
-            "hots-cntr": "kelthuzad",
-            "hots-pch-nts": "kelthuzad",
-            "icy-veins": "kelthuzad",
-            "storm-spy": 71
-        }
-    },
-    {
-        "kerrigan": {
-            "hots-cntr": "kerrigan",
-            "hots-pch-nts": "kerrigan",
-            "icy-veins": "kerrigan",
-            "storm-spy": 28
-        }
-    },
-    {
-        "kharazim": {
-            "hots-cntr": "kharazim",
-            "hots-pch-nts": "kharazim",
-            "icy-veins": "kharazim",
-            "storm-spy": 29
-        }
-    },
-    {
-        "leoric": {
-            "hots-cntr": "leoric",
-            "hots-pch-nts": "leoric",
-            "icy-veins": "leoric",
-            "storm-spy": 30
-        }
-    },
-    {
-        "lili": {
-            "hots-cntr": "lili",
-            "hots-pch-nts": "lili",
-            "icy-veins": "lili",
-            "storm-spy": 31
-        }
-    },
-    {
-        "liming": {
-            "hots-cntr": "liming",
-            "hots-pch-nts": "liming",
-            "icy-veins": "liming",
-            "storm-spy": 32
-        }
-    },
-    {
-        "lucio": {
-            "hots-cntr": "lucio",
-            "hots-pch-nts": "lucio",
-            "icy-veins": "lucio",
-            "storm-spy": 34
-        }
-    },
-    {
-        "lunara": {
-            "hots-cntr": "lunara",
-            "hots-pch-nts": "lunara",
-            "icy-veins": "lunara",
-            "storm-spy": 35
-        }
-    },
-    {
-        "malfurion": {
-            "hots-cntr": "malfurion",
-            "hots-pch-nts": "malfurion",
-            "icy-veins": "malfurion",
-            "storm-spy": 36
-        }
-    },
-    {
-        "malthael": {
-            "hots-cntr": "malthael",
-            "hots-pch-nts": "malthael",
-            "icy-veins": "malthael",
-            "storm-spy": 37
-        }
-    },
-    {
-        "medivh": {
-            "hots-cntr": "medivh",
-            "hots-pch-nts": "medivh",
-            "icy-veins": "medivh",
-            "storm-spy": 38
-        }
-    },
-    {
-        "ltmorales": {
-            "hots-cntr": "ltmorales",
-            "hots-pch-nts": "ltmorales",
-            "icy-veins": "ltmorales",
-            "storm-spy": 33
-        }
-    },
-    {
-        "muradin": {
-            "hots-cntr": "muradin",
-            "hots-pch-nts": "muradin",
-            "icy-veins": "muradin",
-            "storm-spy": 39
-        }
-    },
-    {
-        "murky": {
-            "hots-cntr": "murky",
-            "hots-pch-nts": "murky",
-            "icy-veins": "murky",
-            "storm-spy": 40
-        }
-    },
-    {
-        "nazeebo": {
-            "hots-cntr": "nazeebo",
-            "hots-pch-nts": "nazeebo",
-            "icy-veins": "nazeebo",
-            "storm-spy": 41
-        }
-    },
-    {
-        "nova": {
-            "hots-cntr": "nova",
-            "hots-pch-nts": "nova",
-            "icy-veins": "nova",
-            "storm-spy": 42
-        }
-    },
-    {
-        "probius": {
-            "hots-cntr": "probius",
-            "hots-pch-nts": "probius",
-            "icy-veins": "probius",
-            "storm-spy": 43
-        }
-    },
-    {
-        "ragnaros": {
-            "hots-cntr": "ragnaros",
-            "hots-pch-nts": "ragnaros",
-            "icy-veins": "ragnaros",
-            "storm-spy": 44
-        }
-    },
-    {
-        "raynor": {
-            "hots-cntr": "raynor",
-            "hots-pch-nts": "raynor",
-            "icy-veins": "raynor",
-            "storm-spy": 45
-        }
-    },
-    {
-        "rehgar": {
-            "hots-cntr": "rehgar",
-            "hots-pch-nts": "rehgar",
-            "icy-veins": "rehgar",
-            "storm-spy": 46
-        }
-    },
-    {
-        "rexxar": {
-            "hots-cntr": "rexxar",
-            "hots-pch-nts": "rexxar",
-            "icy-veins": "rexxar",
-            "storm-spy": 47
-        }
-    },
-    {
-        "samuro": {
-            "hots-cntr": "samuro",
-            "hots-pch-nts": "samuro",
-            "icy-veins": "samuro",
-            "storm-spy": 48
-        }
-    },
-    {
-        "sonya": {
-            "hots-cntr": "sonya",
-            "hots-pch-nts": "sonya",
-            "icy-veins": "sonya",
-            "storm-spy": 50
-        }
-    },
-    {
-        "stitches": {
-            "hots-cntr": "stitches",
-            "hots-pch-nts": "stitches",
-            "icy-veins": "stitches",
-            "storm-spy": 51
-        }
-    },
-    {
-        "stukov": {
-            "hots-cntr": "stukov",
-            "hots-pch-nts": "stukov",
-            "icy-veins": "stukov",
-            "storm-spy": 52
-        }
-    },
-    {
-        "sylvanas": {
-            "hots-cntr": "sylvanas",
-            "hots-pch-nts": "sylvanas",
-            "icy-veins": "sylvanas",
-            "storm-spy": 53
-        }
-    },
-    {
-        "tassadar": {
-            "hots-cntr": "tassadar",
-            "hots-pch-nts": "tassadar",
-            "icy-veins": "tassadar",
-            "storm-spy": 54
-        }
-    },
-    {
-        "thebutcher": {
-            "hots-cntr": "thebutcher",
-            "hots-pch-nts": "thebutcher",
-            "icy-veins": "thebutcher",
-            "storm-spy": 55
-        }
-    },
-    {
-        "thrall": {
-            "hots-cntr": "thrall",
-            "hots-pch-nts": "thrall",
-            "icy-veins": "thrall",
-            "storm-spy": 57
-        }
-    },
-    {
-        "thelostvikings": {
-            "hots-cntr": "thelostvikings",
-            "hots-pch-nts": "thelostvikings",
-            "icy-veins": "thelostvikings",
-            "storm-spy": 56
-        }
-    },
-    {
-        "tracer": {
-            "hots-cntr": "tracer",
-            "hots-pch-nts": "tracer",
-            "icy-veins": "tracer",
-            "storm-spy": 58
-        }
-    },
-    {
-        "tychus": {
-            "hots-cntr": "tychus",
-            "hots-pch-nts": "tychus",
-            "icy-veins": "tychus",
-            "storm-spy": 59
-        }
-    },
-    {
-        "tyrael": {
-            "hots-cntr": "tyrael",
-            "hots-pch-nts": "tyrael",
-            "icy-veins": "tyrael",
-            "storm-spy": 60
-        }
-    },
-    {
-        "tyrande": {
-            "hots-cntr": "tyrande",
-            "hots-pch-nts": "tyrande",
-            "icy-veins": "tyrande",
-            "storm-spy": 61
-        }
-    },
-    {
-        "uther": {
-            "hots-cntr": "uther",
-            "hots-pch-nts": "uther",
-            "icy-veins": "uther",
-            "storm-spy": 62
-        }
-    },
-    {
-        "valeera": {
-            "hots-cntr": "valeera",
-            "hots-pch-nts": "valeera",
-            "icy-veins": "valeera",
-            "storm-spy": 63
-        }
-    },
-    {
-        "valla": {
-            "hots-cntr": "valla",
-            "hots-pch-nts": "valla",
-            "icy-veins": "valla",
-            "storm-spy": 64
-        }
-    },
-    {
-        "varian": {
-            "hots-cntr": "varian",
-            "hots-pch-nts": "varian",
-            "icy-veins": "varian",
-            "storm-spy": 65
-        }
-    },
-    {
-        "xul": {
-            "hots-cntr": "xul",
-            "hots-pch-nts": "xul",
-            "icy-veins": "xul",
-            "storm-spy": 66
-        }
-    },
-    {
-        "zagara": {
-            "hots-cntr": "zagara",
-            "hots-pch-nts": "zagara",
-            "icy-veins": "zagara",
-            "storm-spy": 67
-        }
-    },
-    {
-        "zarya": {
-            "hots-cntr": "zarya",
-            "hots-pch-nts": "zarya",
-            "icy-veins": "zarya",
-            "storm-spy": 68
-        }
-    },
-    {
-        "zeratul": {
-            "hots-cntr": "zeratul",
-            "hots-pch-nts": "zeratul",
-            "icy-veins": "zeratul",
-            "storm-spy": 69
-        }
-    },
-    {
-        "zuljin": {
-            "hots-cntr": "zuljin",
-            "hots-pch-nts": "zuljin",
-            "icy-veins": "zuljin",
-            "storm-spy": 70
-        }
-    }
-]
+{"abathur":{  
+         "hots-cntr":"abathur",
+         "hots-pch-nts":"abathur",
+         "icy-veins":"abathur",
+         "storm-spy":1
+      },
+"alarak":{  
+         "hots-cntr":"alarak",
+         "hots-pch-nts":"alarak",
+         "icy-veins":"alarak",
+         "storm-spy":2
+      },
+"ana":{  
+         "hots-cntr":"ana",
+         "hots-pch-nts":"ana",
+         "icy-veins":"ana",
+         "storm-spy":72
+      },
+"anubarak":{  
+         "hots-cntr":"anubarak",
+         "hots-pch-nts":"anubarak",
+         "icy-veins":"anubarak",
+         "storm-spy":3
+      },
+"artanis":{  
+         "hots-cntr":"artanis",
+         "hots-pch-nts":"artanis",
+         "icy-veins":"artanis",
+         "storm-spy":4
+      },
+"arthas":{  
+         "hots-cntr":"arthas",
+         "hots-pch-nts":"arthas",
+         "icy-veins":"arthas",
+         "storm-spy":5
+      },
+"auriel":{  
+         "hots-cntr":"auriel",
+         "hots-pch-nts":"auriel",
+         "icy-veins":"auriel",
+         "storm-spy":6
+      },
+"azmodan":{  
+         "hots-cntr":"azmodan",
+         "hots-pch-nts":"azmodan",
+         "icy-veins":"azmodan",
+         "storm-spy":7
+      },
+"brightwing":{  
+         "hots-cntr":"brightwing",
+         "hots-pch-nts":"brightwing",
+         "icy-veins":"brightwing",
+         "storm-spy":8
+      },
+"cassia":{  
+         "hots-cntr":"cassia",
+         "hots-pch-nts":"cassia",
+         "icy-veins":"cassia",
+         "storm-spy":9
+      },
+"cho":{  
+         "hots-cntr":"chogall",
+         "hots-pch-nts":"cho",
+         "icy-veins":"cho",
+         "storm-spy":11
+      },
+"chromie":{  
+         "hots-cntr":"chromie",
+         "hots-pch-nts":"chromie",
+         "icy-veins":"chromie",
+         "storm-spy":12
+      },
+"dehaka":{  
+         "hots-cntr":"dehaka",
+         "hots-pch-nts":"dehaka",
+         "icy-veins":"dehaka",
+         "storm-spy":14
+      },
+"diablo":{  
+         "hots-cntr":"diablo",
+         "hots-pch-nts":"diablo",
+         "icy-veins":"diablo",
+         "storm-spy":15
+      },
+"dva":{  
+         "hots-cntr":"dva",
+         "hots-pch-nts":"dva",
+         "icy-veins":"dva",
+         "storm-spy":13
+      },
+"etc":{  
+         "hots-cntr":"etc",
+         "hots-pch-nts":"etc",
+         "icy-veins":"e-t-c",
+         "storm-spy":16
+      },
+"falstad":{  
+         "hots-cntr":"falstad",
+         "hots-pch-nts":"falstad",
+         "icy-veins":"falstad",
+         "storm-spy":17
+      },
+"gall":{  
+         "hots-cntr":"chogall",
+         "hots-pch-nts":"gall",
+         "icy-veins":"gall",
+         "storm-spy":18
+      },
+"garrosh":{  
+         "hots-cntr":"garrosh",
+         "hots-pch-nts":"garrosh",
+         "icy-veins":"garrosh",
+         "storm-spy":19
+      },
+"gazlowe":{  
+         "hots-cntr":"gazlowe",
+         "hots-pch-nts":"gazlowe",
+         "icy-veins":"gazlowe",
+         "storm-spy":20
+      },
+"genji":{  
+         "hots-cntr":"genji",
+         "hots-pch-nts":"genji",
+         "icy-veins":"genji",
+         "storm-spy":21
+      },
+"greymane":{  
+         "hots-cntr":"greymane",
+         "hots-pch-nts":"greymane",
+         "icy-veins":"greymane",
+         "storm-spy":22
+      },
+"guldan":{  
+         "hots-cntr":"guldan",
+         "hots-pch-nts":"guldan",
+         "icy-veins":"guldan",
+         "storm-spy":23
+      },
+"sgthammer":{  
+         "hots-cntr":"sgthammer",
+         "hots-pch-nts":"sgthammer",
+         "icy-veins":"sgt-hammer",
+         "storm-spy":49
+      },
+"illidan":{  
+         "hots-cntr":"illidan",
+         "hots-pch-nts":"illidan",
+         "icy-veins":"illidan",
+         "storm-spy":24
+      },
+"jaina":{  
+         "hots-cntr":"jaina",
+         "hots-pch-nts":"jaina",
+         "icy-veins":"jaina",
+         "storm-spy":25
+      },
+"johanna":{  
+         "hots-cntr":"johanna",
+         "hots-pch-nts":"johanna",
+         "icy-veins":"johanna",
+         "storm-spy":26
+      },
+"junkrat":{  
+         "hots-cntr":"junkrat",
+         "hots-pch-nts":"junkrat",
+         "icy-veins":"junkrat",
+         "storm-spy":73
+      },
+"kaelthas":{  
+         "hots-cntr":"kaelthas",
+         "hots-pch-nts":"kaelthas",
+         "icy-veins":"kaelthas",
+         "storm-spy":27
+      },
+"kelthuzad":{  
+         "hots-cntr":"kelthuzad",
+         "hots-pch-nts":"kelthuzad",
+         "icy-veins":"kel-thuzad",
+         "storm-spy":71
+      },
+"kerrigan":{  
+         "hots-cntr":"kerrigan",
+         "hots-pch-nts":"kerrigan",
+         "icy-veins":"kerrigan",
+         "storm-spy":28
+      },
+"kharazim":{  
+         "hots-cntr":"kharazim",
+         "hots-pch-nts":"kharazim",
+         "icy-veins":"kharazim",
+         "storm-spy":29
+      },
+"leoric":{  
+         "hots-cntr":"leoric",
+         "hots-pch-nts":"leoric",
+         "icy-veins":"leoric",
+         "storm-spy":30
+      },
+"lili":{  
+         "hots-cntr":"lili",
+         "hots-pch-nts":"lili",
+         "icy-veins":"li-li",
+         "storm-spy":31
+      },
+"liming":{  
+         "hots-cntr":"liming",
+         "hots-pch-nts":"liming",
+         "icy-veins":"li-ming",
+         "storm-spy":32
+      },
+"lucio":{  
+         "hots-cntr":"lucio",
+         "hots-pch-nts":"lucio",
+         "icy-veins":"lucio",
+         "storm-spy":34
+      },
+"lunara":{  
+         "hots-cntr":"lunara",
+         "hots-pch-nts":"lunara",
+         "icy-veins":"lunara",
+         "storm-spy":35
+      },
+"malfurion":{  
+         "hots-cntr":"malfurion",
+         "hots-pch-nts":"malfurion",
+         "icy-veins":"malfurion",
+         "storm-spy":36
+      },
+"malthael":{  
+         "hots-cntr":"malthael",
+         "hots-pch-nts":"malthael",
+         "icy-veins":"malthael",
+         "storm-spy":37
+      },
+"medivh":{  
+         "hots-cntr":"medivh",
+         "hots-pch-nts":"medivh",
+         "icy-veins":"medivh",
+         "storm-spy":38
+      },
+"ltmorales":{  
+         "hots-cntr":"ltmorales",
+         "hots-pch-nts":"ltmorales",
+         "icy-veins":"lt-morales",
+         "storm-spy":33
+      },
+"muradin":{  
+         "hots-cntr":"muradin",
+         "hots-pch-nts":"muradin",
+         "icy-veins":"muradin",
+         "storm-spy":39
+      },
+"murky":{  
+         "hots-cntr":"murky",
+         "hots-pch-nts":"murky",
+         "icy-veins":"murky",
+         "storm-spy":40
+      },
+"nazeebo":{  
+         "hots-cntr":"nazeebo",
+         "hots-pch-nts":"nazeebo",
+         "icy-veins":"nazeebo",
+         "storm-spy":41
+      },
+"nova":{  
+         "hots-cntr":"nova",
+         "hots-pch-nts":"nova",
+         "icy-veins":"nova",
+         "storm-spy":42
+      },
+"probius":{  
+         "hots-cntr":"probius",
+         "hots-pch-nts":"probius",
+         "icy-veins":"probius",
+         "storm-spy":43
+      },
+"ragnaros":{  
+         "hots-cntr":"ragnaros",
+         "hots-pch-nts":"ragnaros",
+         "icy-veins":"ragnaros",
+         "storm-spy":44
+      },
+"raynor":{  
+         "hots-cntr":"raynor",
+         "hots-pch-nts":"raynor",
+         "icy-veins":"raynor",
+         "storm-spy":45
+      },
+"rehgar":{  
+         "hots-cntr":"rehgar",
+         "hots-pch-nts":"rehgar",
+         "icy-veins":"rehgar",
+         "storm-spy":46
+      },
+"rexxar":{  
+         "hots-cntr":"rexxar",
+         "hots-pch-nts":"rexxar",
+         "icy-veins":"rexxar",
+         "storm-spy":47
+      },
+"samuro":{  
+         "hots-cntr":"samuro",
+         "hots-pch-nts":"samuro",
+         "icy-veins":"samuro",
+         "storm-spy":48
+      },
+"sonya":{  
+         "hots-cntr":"sonya",
+         "hots-pch-nts":"sonya",
+         "icy-veins":"sonya",
+         "storm-spy":50
+      },
+"stitches":{  
+         "hots-cntr":"stitches",
+         "hots-pch-nts":"stitches",
+         "icy-veins":"stitches",
+         "storm-spy":51
+      },
+"stukov":{  
+         "hots-cntr":"stukov",
+         "hots-pch-nts":"stukov",
+         "icy-veins":"stukov",
+         "storm-spy":52
+      },
+"sylvanas":{  
+         "hots-cntr":"sylvanas",
+         "hots-pch-nts":"sylvanas",
+         "icy-veins":"sylvanas",
+         "storm-spy":53
+      },
+"tassadar":{  
+         "hots-cntr":"tassadar",
+         "hots-pch-nts":"tassadar",
+         "icy-veins":"tassadar",
+         "storm-spy":54
+      },
+"thebutcher":{  
+         "hots-cntr":"thebutcher",
+         "hots-pch-nts":"butcher",
+         "icy-veins":"the-butcher",
+         "storm-spy":55
+      },
+"thrall":{  
+         "hots-cntr":"thrall",
+         "hots-pch-nts":"thrall",
+         "icy-veins":"thrall",
+         "storm-spy":57
+      },
+"thelostvikings":{  
+         "hots-cntr":"thelostvikings",
+         "hots-pch-nts":"thelostvikings",
+         "icy-veins":"the-lost-vikings",
+         "storm-spy":56
+      },
+"tracer":{  
+         "hots-cntr":"tracer",
+         "hots-pch-nts":"tracer",
+         "icy-veins":"tracer",
+         "storm-spy":58
+      },
+"tychus":{  
+         "hots-cntr":"tychus",
+         "hots-pch-nts":"tychus",
+         "icy-veins":"tychus",
+         "storm-spy":59
+      },
+"tyrael":{  
+         "hots-cntr":"tyrael",
+         "hots-pch-nts":"tyrael",
+         "icy-veins":"tyrael",
+         "storm-spy":60
+      },
+"tyrande":{  
+         "hots-cntr":"tyrande",
+         "hots-pch-nts":"tyrande",
+         "icy-veins":"tyrande",
+         "storm-spy":61
+      },
+"uther":{  
+         "hots-cntr":"uther",
+         "hots-pch-nts":"uther",
+         "icy-veins":"uther",
+         "storm-spy":62
+      },
+"valeera":{  
+         "hots-cntr":"valeera",
+         "hots-pch-nts":"valeera",
+         "icy-veins":"valeera",
+         "storm-spy":63
+      },
+"valla":{  
+         "hots-cntr":"valla",
+         "hots-pch-nts":"valla",
+         "icy-veins":"valla",
+         "storm-spy":64
+      },
+"varian":{  
+         "hots-cntr":"varian",
+         "hots-pch-nts":"varian",
+         "icy-veins":"varian",
+         "storm-spy":65
+      },
+"xul":{  
+         "hots-cntr":"xul",
+         "hots-pch-nts":"xul",
+         "icy-veins":"xul",
+         "storm-spy":66
+      },
+"zagara":{  
+         "hots-cntr":"zagara",
+         "hots-pch-nts":"zagara",
+         "icy-veins":"zagara",
+         "storm-spy":67
+      },
+"zarya":{  
+         "hots-cntr":"zarya",
+         "hots-pch-nts":"zarya",
+         "icy-veins":"zarya",
+         "storm-spy":68
+      },
+"zeratul":{  
+         "hots-cntr":"zeratul",
+         "hots-pch-nts":"zeratul",
+         "icy-veins":"zeratul",
+         "storm-spy":69
+      },
+"zuljin":{  
+         "hots-cntr":"zuljin",
+         "hots-pch-nts":"zuljin",
+         "icy-veins":"zuljin",
+         "storm-spy":70
+      }
+}
