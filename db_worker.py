@@ -24,5 +24,7 @@ def add_new_text_command(db_conn, text_command, text_output):
             sql = "INSERT INTO tblTextCommands (TextCommand, TextOutput) VALUES ('{}', '{}')".format(text_command, text_output)
             print(sql)
             cursor.execute(sql)
+    except pymysql.Error as err:
+        print("SQL Error: "+str(err))
     finally:
         db_conn.close()
