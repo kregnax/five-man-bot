@@ -19,8 +19,7 @@ KEY = JSON_KEYS['five-man']
 JAWS_VARS = ['JAWSDB_NAME', 'JAWSDB_PASS', 'JAWSDB_HOST', 'JAWSDB_USER']
 JAWS_VALS = [os.environ.get(key) for key in JAWS_VARS]
 JAWS_DICT = dict(zip(JAWS_VARS, JAWS_VALS))
-DB_CONN = db_worker.get_connection(JAWS_DICT)
-TEXT_COMMANDS = db_worker.get_text_commands_dict(DB_CONN)
+TEXT_COMMANDS = db_worker.get_text_commands_dict(db_worker.get_connection(JAWS_DICT))
 
 @CLIENT.event
 async def on_ready():
