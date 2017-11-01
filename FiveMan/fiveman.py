@@ -12,7 +12,7 @@ from hots_build_builder import BuildBuilder
 CLIENT = discord.Client()
 CONFIGS = json_loader.get_json("config.json")
 JSON_KEYS = json_loader.get_json("keys.json")
-TEXT_COMMANDS = json_loader.get_json("text_commands.json")
+#TEXT_COMMANDS = json_loader.get_json("text_commands.json")
 HEROES_JSON = json_loader.get_json("heroes.json")
 BUILD_BUILDER = BuildBuilder()
 
@@ -21,6 +21,7 @@ JAWS_VARS = ['JAWSDB_NAME', 'JAWSDB_PASS', 'JAWSDB_HOST', 'JAWSDB_USER']
 JAWS_VALS = [os.environ.get(key) for key in JAWS_VARS]
 JAWS_DICT = dict(zip(JAWS_VARS, JAWS_VALS))
 DB_CONN = db_worker.get_connection(JAWS_DICT)
+TEXT_COMMANDS = db_worker.get_text_commands_dict(DB_CONN)
 
 @CLIENT.event
 async def on_ready():
