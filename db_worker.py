@@ -23,7 +23,7 @@ def add_new_text_command(db_conn, text_command, text_output):
         with db_conn as cursor:
             sql = "INSERT INTO tblTextCommands (TextCommand, TextOutput) "+\
                   "VALUES ({}, {})".format(text_command, text_output)
-                  print(sql)
+            print(sql)
             cursor.execute(sql)
     finally:
         db_conn.close()
