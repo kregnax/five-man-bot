@@ -46,12 +46,10 @@ async def on_message(message):
         if(str(message.author) == "kregnax#2710"):
             cmd_in = message.content.split()
             if(cmd_in[0] == "!addtxtcmd"):
-                TEXT_COMMANDS[cmd_in[1]] = ''.join(
-                    w + ' ' for w in cmd_in[2:]).strip()
-                temp_json = json.dumps(TEXT_COMMANDS)
-                temp_json = json.loads(temp_json)
-                with open('text_commands.json', 'w') as f:
-                    json.dump(temp_json, f, indent=4)
+                text_command = cmd_in[1]
+                text_output = ''.join(w + ' ' for w in cmd_in[2:]).strip()
+                TEXT_COMMANDS[text_command] = text_output
+                db_worker.add_new_text_command(DB_CONN, text_command, text_output)
             else:
                 await CLIENT.send_message(message.channel, "Unrecognized command: {}".format(cmd_in[0]))
         else:
