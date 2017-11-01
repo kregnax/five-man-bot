@@ -12,7 +12,6 @@ from hots_build_builder import BuildBuilder
 CLIENT = discord.Client()
 CONFIGS = json_loader.get_json("config.json")
 JSON_KEYS = json_loader.get_json("keys.json")
-#TEXT_COMMANDS = json_loader.get_json("text_commands.json")
 HEROES_JSON = json_loader.get_json("heroes.json")
 BUILD_BUILDER = BuildBuilder()
 
@@ -49,7 +48,7 @@ async def on_message(message):
                 text_command = cmd_in[1]
                 text_output = ''.join(w + ' ' for w in cmd_in[2:]).strip()
                 TEXT_COMMANDS[text_command] = text_output
-                db_worker.add_new_text_command(DB_CONN, text_command, text_output)
+                db_worker.add_new_text_command(db_worker.get_connection(JAWS_DICT), text_command, text_output)
             else:
                 await CLIENT.send_message(message.channel, "Unrecognized command: {}".format(cmd_in[0]))
         else:
