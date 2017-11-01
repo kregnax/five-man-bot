@@ -24,9 +24,8 @@ build_builder = BuildBuilder()
 
 KEY = keys['five-man']
 JAWS_VARS = ['JAWSDB_NAME', 'JAWSDB_PASS', 'JAWSDB_URL', 'JAWSDB_USER']
-
 JAWS_VALS = [os.environ.get(key) for key in JAWS_VARS]
-
+print(JAWS_VALS)
 @client.event
 async def on_ready():
     print('Logged in as')
