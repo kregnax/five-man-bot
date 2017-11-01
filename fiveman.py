@@ -23,16 +23,15 @@ heroes_json = json_loader.get_json("heroes.json")
 build_builder = BuildBuilder()
 
 KEY = keys['five-man']
-
-
+JAWS_VARS = ['JAWSDB_NAME', 'JAWSDB_PASS', 'JAWSDB_URL', 'JAWSDB_USER']
+JAWS_VALS = [os.environ.get(key) for key in JAWS_VARS]
+print(JAWS_VALS)
 @client.event
 async def on_ready():
     print('Logged in as')
     print(client.user.name)
     print(client.user.id)
-    print(os.environ.get('JAWSDB_URL'))
     print('--------')
-
 
 @client.event
 async def on_message(message):
@@ -88,4 +87,5 @@ async def on_message(message):
         patch_notes_link = fetch.get_latest_patch_notes()
         patch_notes_link = '3 most recent patches:\n' + patch_notes_link
         await client.send_message(message.channel, patch_notes_link)
+
 client.run(KEY)
