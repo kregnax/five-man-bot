@@ -38,3 +38,4 @@ __pycache__
 .voice_lines
 .temp
 keys.json
+.vscode

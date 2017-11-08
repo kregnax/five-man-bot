@@ -1,4 +1,5 @@
 import pymysql.cursors
+import blizzard
 
 def get_connection(db_dictionary):
     return pymysql.connect(
@@ -23,10 +24,34 @@ def add_new_text_command(db_conn, text_command, text_output):
     try:
         with db_conn as cursor:
             sql = "INSERT INTO tblTextCommands (TextCommand, TextOutput) VALUES ('{}', '{}')".format(text_command, text_output)
-            print(sql)
             cursor.execute(sql)
     except pymysql.Error as err:
         print("SQL Error: "+str(err))
     finally:
         cursor.close()
         db_conn.close()
+
+def get_battletag_for_discordID(db_conn, discordID):
+    battletag = 'Not found'
+    try:
+        with db_conn as cursor:
+            sql = "SELECT Battletag FROM tblDiscord2Battletag WHERE DiscordID = {}".format(discordID)
+            cursor.execute(sql)
+            battletag = cursor.fetchall()
+    except pymysql.Error as err:
+        print("SQL Error: "+ str(err))
+    finally:
+        cursor.close()
+        db_conn.close()
+    return battletag
+
+def register_discordID_for_battletag(db_conn, discordID, battletag):
+    try:
+        with db_conn as cursor:
+            sql = "INSERT INTO tblDiscord2Battletag (DiscordID, Battletag) VALUES ('{}', '{}')".format(discordID, battletag)
+            cursor.execute(sql)
+    except pymysql.Error as err:
+        print("SQL Error: "+ str(err))
+    finally:
+        cursor.close()
+        db_conn.close()    

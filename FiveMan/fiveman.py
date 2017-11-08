@@ -1,10 +1,10 @@
 import asyncio
-import json
 import os
 
 import discord
 
 import db_worker
+import blizzard
 import fetch
 import json_loader
 from hots_build_builder import BuildBuilder
@@ -21,6 +21,7 @@ JAWS_VALS = [os.environ.get(key) for key in JAWS_VARS]
 JAWS_DICT = dict(zip(JAWS_VARS, JAWS_VALS))
 TEXT_COMMANDS = db_worker.get_text_commands_dict(db_worker.get_connection(JAWS_DICT))
 
+
 @CLIENT.event
 async def on_ready():
     print('Logged in as')
@@ -31,6 +32,10 @@ async def on_ready():
 
 @CLIENT.event
 async def on_message(message):
+    if(message.content.startswith("!registertag")):
+        discordID = str(message.author)
+        battletag = message.content.split()[1]
+        db_worker.register_discordID_for_battletag(db_worker.get_connection(JAWS_DICT), discordID, battletag)
     if(message.content.startswith("!build")):
         hero = message.content.split()[1]
         print(hero)
