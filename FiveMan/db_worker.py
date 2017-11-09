@@ -46,9 +46,10 @@ def get_battletag_for_discordID(db_conn, discordID):
     return battletag
 
 def register_discordID_for_battletag(db_conn, discordID, battletag):
+    msg = 'Battletag already registered'
     try:
         with db_conn as cursor:
-            sql = "INSERT INTO tblDiscord2Battletag (DiscordID, Battletag) VALUES ('{}', '{}')".format(discordID, battletag)
+            sql = "REPLACE INTO tblDiscord2Battletag (DiscordID, Battletag) VALUES ('{}', '{}')".format(discordID, battletag)
             cursor.execute(sql)
     except pymysql.Error as err:
         print("SQL Error: "+ str(err))
