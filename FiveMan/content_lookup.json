@@ -10,6 +10,12 @@
          "icy-veins":"alarak",
          "storm-spy":2
       },
+"alexstraza":{  
+         "hots-cntr":"alexstraza",
+         "hots-pch-nts":"alexstraza",
+         "icy-veins":"alexstraza",
+         "storm-spy":74
+      },
 "ana":{  
          "hots-cntr":"ana",
          "hots-pch-nts":"ana",
@@ -57,6 +63,12 @@
          "hots-pch-nts":"cassia",
          "icy-veins":"cassia",
          "storm-spy":9
+      },
+"chen":{  
+         "hots-cntr":"chen",
+         "hots-pch-nts":"chen",
+         "icy-veins":"chen",
+         "storm-spy":10
       },
 "cho":{  
          "hots-cntr":"chogall",
@@ -135,6 +147,12 @@
          "hots-pch-nts":"guldan",
          "icy-veins":"guldan",
          "storm-spy":23
+      },
+"hanzo":{  
+         "hots-cntr":"hanzo",
+         "hots-pch-nts":"hanzo",
+         "icy-veins":"hanzo",
+         "storm-spy":75
       },
 "sgthammer":{  
          "hots-cntr":"sgthammer",
