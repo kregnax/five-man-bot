@@ -41,10 +41,10 @@ async def on_message(message):
         await CLIENT.send_message(message.channel, builds)
     if(message.content.startswith("[[")):
         info_request = message.content[2:-2].lower()
-        BUILD_BUILDER.process_request(info_request)
+        msg = BUILD_BUILDER.process_request(info_request)
         talent = message.content[2:-2].lower()
-        description = BUILD_BUILDER.get_talent(talent)
-        await CLIENT.send_message(message.channel, description)
+        #description = BUILD_BUILDER.get_talent(talent)
+        await CLIENT.send_message(message.channel, msg)
     if(message.content.startswith("!addtxtcmd")):
         if(str(message.author) == "kregnax#2710"):
             cmd_in = message.content.split()
