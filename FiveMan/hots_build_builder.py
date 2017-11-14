@@ -35,10 +35,10 @@ class BuildBuilder(object):
         found_talent = ''
         for hero in self.heroes_json:
             talents = self.heroes_json[hero]["talents"]
-            for talent in talents:
-                if talent["name"].lower() == talent:
+            for t in talents:
+                if t["name"].lower() == talent:
                     hero = hero[0].upper() + hero[1:]
-                    found_talent += '__{}__: {} - {}\n\n'.format(hero,talent["name"],talent["description"])
+                    found_talent += '__{}__: {} - {}\n\n'.format(hero,t["name"],t["description"])
         return found_talent
 
 
