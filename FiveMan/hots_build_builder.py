@@ -1,5 +1,6 @@
 import json
 import json_loader
+import fetch
 
 class BuildBuilder(object):
     def __init__(self):
@@ -7,6 +8,15 @@ class BuildBuilder(object):
     #TODO: break this out into smaller functions so selection of
     #       builds can be more granular, i.e. create a
     #       get_build_by_name()
+
+    def process_request(self, request):
+        if '/' in request:
+            sliced = request.split('/')
+            hero = sliced[0]
+            tier = sliced[1]
+
+        return 'Could not find info for your request: ' + request
+
     def get_builds_for_hero(self, hero):
         if(hero not in self.heroes_json):
             return 'Cannot find hero {}'.format(hero)
@@ -40,6 +50,10 @@ class BuildBuilder(object):
                     hero = hero[0].upper() + hero[1:]
                     found_talent += '__{}__: {} - {}\n\n'.format(hero,t["name"],t["description"])
         return found_talent
+
+    #def get_talent_for_tier(self, hero, tier):
+
+
 
 
     #TODO: get talents by name, maybe use string comparison with 85%
