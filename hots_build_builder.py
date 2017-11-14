@@ -51,7 +51,8 @@ class BuildBuilder(object):
                     found_talent += '__{}__: {} - {}\n\n'.format(hero,t["name"],t["description"])
         return found_talent
 
-    def get_talent_for_tier(self, hero, tier):
+    #def get_talent_for_tier(self, hero, tier):
+
 
 
 
