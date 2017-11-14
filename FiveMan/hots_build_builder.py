@@ -41,8 +41,6 @@ class BuildBuilder(object):
                     found_talent += '__{}__: {} - {}\n\n'.format(hero,talent["name"],talent["description"])
         return found_talent
 
-    #def get_talents_at_tier(self, tier):
-
 
     #TODO: get talents by name, maybe use string comparison with 85%
     #       threshhold of name to return relevant talents (see reddit bot)
