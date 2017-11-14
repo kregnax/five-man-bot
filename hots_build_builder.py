@@ -21,7 +21,7 @@ class BuildBuilder(object):
                 level = int(affix)
                 return self.get_talents_for_level(hero, level)
             except TypeError:
-                pass
+                return 'Lookup by hero/talent not implemented'
         else:
             return self.get_talent(request)
         return 'Not a valid request: ' + request
@@ -59,7 +59,7 @@ class BuildBuilder(object):
                     hero = hero[0].upper() + hero[1:]
                     found_talent += '__{}__: {} - {}\n\n'.format(hero,t["name"],t["description"])
         if found_talent == '':
-            return 'Could not find info for talent ' + talent
+            return 'Could not find info for talent __{}__'.format(talent)
         return found_talent
 
     def get_talents_for_level(self, hero, level):
