@@ -22,6 +22,8 @@ class BuildBuilder(object):
                 return self.get_talents_for_level(hero, level)
             except TypeError:
                 pass
+        else:
+            return self.get_talent(request)
         return 'Could not find info for your request: ' + request
 
     def get_builds_for_hero(self, hero):
