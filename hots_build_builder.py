@@ -32,11 +32,11 @@ class BuildBuilder(object):
             continue
 
     def get_talent(self, talent):
-        print(talent)
         found_talent = ''
         for hero in self.heroes_json:
             talents = self.heroes_json[hero]["talents"]
             for talent in talents:
+                print(talent["name"].lower())
                 if talent["name"].lower() == talent:
                     hero = hero[0].upper() + hero[1:]
                     found_talent += '__{}__: {} - {}\n\n'.format(hero,talent["name"],talent["description"])
