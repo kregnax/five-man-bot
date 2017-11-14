@@ -65,7 +65,7 @@ class BuildBuilder(object):
         tier = self.VALID_LEVELS.index(level) + 1
         true_name = fetch.get_hero_name(hero)
         for t in self.heroes_json[true_name]['talents']:
-            if tier = t['tier']:
+            if tier == t['tier']:
                 talent_list += '__{}__: {}\n\n'.format(t['name'],t['description'])
         return talent_list
 
