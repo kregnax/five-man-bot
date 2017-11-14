@@ -36,7 +36,6 @@ class BuildBuilder(object):
         for hero in self.heroes_json:
             talents = self.heroes_json[hero]["talents"]
             for t in talents:
-                print(talent["name"].lower())
                 if t["name"].lower() == talent:
                     hero = hero[0].upper() + hero[1:]
                     found_talent += '__{}__: {} - {}\n\n'.format(hero,t["name"],t["description"])
