@@ -32,6 +32,7 @@ class BuildBuilder(object):
             continue
 
     def get_talent(self, talent):
+        print(talent)
         found_talent = ''
         for hero in self.heroes_json:
             talents = self.heroes_json[hero]["talents"]
