@@ -20,7 +20,7 @@ class BuildBuilder(object):
             try:
                 level = int(affix)
                 return self.get_talents_for_level(hero, level)
-            except TypeError:
+            except:
                 return 'Lookup by hero/talent not implemented'
         else:
             return self.get_talent(request)
