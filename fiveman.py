@@ -3,8 +3,8 @@ import os
 
 import discord
 
-import db_worker
 import blizzard
+import db_worker
 import fetch
 import json_loader
 from hots_build_builder import BuildBuilder
@@ -37,10 +37,11 @@ async def on_message(message):
         db_worker.register_discordID_for_battletag(db_worker.get_connection(JAWS_DICT), discordID, battletag)
     if(message.content.startswith("!build")):
         hero = message.content.split()[1]
-        print(hero)
         builds = BUILD_BUILDER.get_builds_for_hero(hero)
         await CLIENT.send_message(message.channel, builds)
     if(message.content.startswith("[[")):
+        info_request = message.content[2:-2].lower()
+        BUILD_BUILDER.process_request(info_request)
         talent = message.content[2:-2].lower()
         description = BUILD_BUILDER.get_talent(talent)
         await CLIENT.send_message(message.channel, description)
