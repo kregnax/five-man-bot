@@ -24,7 +24,7 @@ class BuildBuilder(object):
                 pass
         else:
             return self.get_talent(request)
-        return 'Could not find info for your request: ' + request
+        return 'Not a valid request: ' + request
 
     def get_builds_for_hero(self, hero):
         if(hero not in self.heroes_json):
@@ -58,16 +58,18 @@ class BuildBuilder(object):
                 if t["name"].lower() == talent:
                     hero = hero[0].upper() + hero[1:]
                     found_talent += '__{}__: {} - {}\n\n'.format(hero,t["name"],t["description"])
+        if found_talent == '':
+            return 'Could not find info for talent ' + talent
         return found_talent
 
     def get_talents_for_level(self, hero, level):
         if level not in self.VALID_LEVELS:
             return level + ' is not a valid level'
-        talent_list = ''
-        tier = self.VALID_LEVELS.index(level) + 1
         true_name = fetch.get_hero_name(hero)
         if true_name == 'Not a valid hero':
             return true_name
+        talent_list = ''
+        tier = self.VALID_LEVELS.index(level) + 1        
         for t in self.heroes_json[true_name]['talents']:
             if tier == t['tier']:
                 talent_list += '__{}__: {}\n\n'.format(t['name'],t['description'])
