@@ -14,8 +14,7 @@ CONFIGS = json_loader.get_json("config.json")
 JSON_KEYS = json_loader.get_json("keys.json")
 HEROES_JSON = json_loader.get_json("heroes.json")
 BUILD_BUILDER = BuildBuilder()
-
-KEY = JSON_KEYS['five-man']
+KEY = os.environ.get('FIVE_MAN')#JSON_KEYS['five-man']
 JAWS_VARS = ['JAWSDB_NAME', 'JAWSDB_PASS', 'JAWSDB_HOST', 'JAWSDB_USER']
 JAWS_VALS = [os.environ.get(key) for key in JAWS_VARS]
 JAWS_DICT = dict(zip(JAWS_VARS, JAWS_VALS))
@@ -42,6 +41,7 @@ async def on_message(message):
         builds = BUILD_BUILDER.get_builds_for_hero(hero)
         await CLIENT.send_message(message.channel, builds)
     if(message.content.startswith("[[")):
+        request = message.content[2:-2].lower()
         talent = message.content[2:-2].lower()
         description = BUILD_BUILDER.get_talent(talent)
         await CLIENT.send_message(message.channel, description)

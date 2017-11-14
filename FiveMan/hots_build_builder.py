@@ -30,15 +30,19 @@ class BuildBuilder(object):
         talents = self.heroes_json[hero]["talents"]
         for talent in talents:
             continue
+
     def get_talent(self, talent):
         found_talent = ''
         for hero in self.heroes_json:
             talents = self.heroes_json[hero]["talents"]
-            for t in talents:
-                if t["name"].lower() == talent:
+            for talent in talents:
+                if talent["name"].lower() == talent:
                     hero = hero[0].upper() + hero[1:]
-                    found_talent += '__{}__: {} - {}\n\n'.format(hero,t["name"],t["description"])
+                    found_talent += '__{}__: {} - {}\n\n'.format(hero,talent["name"],talent["description"])
         return found_talent
+
+    #def get_talents_at_tier(self, tier):
+
 
     #TODO: get talents by name, maybe use string comparison with 85%
     #       threshhold of name to return relevant talents (see reddit bot)

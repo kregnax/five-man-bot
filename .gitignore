@@ -39,3 +39,4 @@ __pycache__
 .temp
 keys.json
 .vscode
+.env
