@@ -14,6 +14,7 @@ CONFIGS = json_loader.get_json("config.json")
 JSON_KEYS = json_loader.get_json("keys.json")
 HEROES_JSON = json_loader.get_json("heroes.json")
 BUILD_BUILDER = BuildBuilder()
+ASDF ='asdf'
 KEY = os.environ.get('FIVE_MAN')#JSON_KEYS['five-man']
 JAWS_VARS = ['JAWSDB_NAME', 'JAWSDB_PASS', 'JAWSDB_HOST', 'JAWSDB_USER']
 JAWS_VALS = [os.environ.get(key) for key in JAWS_VARS]
@@ -27,7 +28,6 @@ async def on_ready():
     print(CLIENT.user.name)
     print(CLIENT.user.id)
     print('--------')
-
 
 @CLIENT.event
 async def on_message(message):
