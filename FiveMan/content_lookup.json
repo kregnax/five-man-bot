@@ -5,9 +5,9 @@
 		"icy-veins": "abathur",
 		"storm-spy": 1,
 		"builds": {
-			"Carapace Build": "3,3,3,2,4,2,2",
-			"Locust Strain Build": "2,3,3,1,2,3,4",
-			"Symbiote Build": "1,4,1,1,4,1,3"
+			"Carapace Build": [3, 3, 3, 2, 4, 2, 2],
+			"Locust Strain Build": [2, 3, 3, 1, 2, 3, 4],
+			"Symbiote Build": [1, 4, 1, 1, 4, 1, 3]
 		}
 	},
 	"alarak": {
@@ -16,8 +16,8 @@
 		"icy-veins": "alarak",
 		"storm-spy": 2,
 		"builds": {
-			"Chaos Reigns Build": "2,1,3,2,3,3,4",
-			"Lightning Surge Build": "2,2,1,2,3,2,4"
+			"Chaos Reigns Build": [2, 1, 3, 2, 3, 3, 4],
+			"Lightning Surge Build": [2, 2, 1, 2, 3, 2, 4]
 		}
 	},
 	"alexstraza": {
@@ -33,8 +33,8 @@
 		"icy-veins": "ana",
 		"storm-spy": 72,
 		"builds": {
-			"All-round Build": "2,1,3,1,1,2,3",
-			"Grenade Build": "1,3,2,1,1,3,3"
+			"All-round Build": [2, 1, 3, 1, 1, 2, 3],
+			"Grenade Build": [1, 3, 2, 1, 1, 3, 3]
 		}
 	},
 	"anubarak": {
@@ -43,7 +43,7 @@
 		"icy-veins": "anubarak",
 		"storm-spy": 3,
 		"builds": {
-			"Balanced Build": "2,1,2,2,3,1,4"
+			"Balanced Build": [2, 1, 2, 2, 3, 1, 4]
 		}
 	},
 	"artanis": {
@@ -52,9 +52,9 @@
 		"icy-veins": "artanis",
 		"storm-spy": 4,
 		"builds": {
-			"Defensive Tank Build": "1,3,2,1,2,1,3",
-			"Prism Bruiser Build": "3,3,2,2,3,2,4",
-			"PvE Objective Build": "2,3,4,1,2,2,4"
+			"Defensive Tank Build": [1, 3, 2, 1, 2, 1, 3],
+			"Prism Bruiser Build": [3, 3, 2, 2, 3, 2, 4],
+			"PvE Objective Build": [2, 3, 4, 1, 2, 2, 4]
 		}
 	},
 	"arthas": {
@@ -63,8 +63,8 @@
 		"icy-veins": "arthas",
 		"storm-spy": 5,
 		"builds": {
-			"Howling Blast Build": "2,1,3,1,1,1,3",
-			"Bruiser Build": "1,1,2,2,3,2,3"
+			"Howling Blast Build": [2, 1, 3, 1, 1, 1, 3],
+			"Bruiser Build": [1, 1, 2, 2, 3, 2, 3]
 		}
 	},
 	"auriel": {
@@ -73,9 +73,9 @@
 		"icy-veins": "auriel",
 		"storm-spy": 6,
 		"builds": {
-			"Sacred Sweep Damage Build": "2,1,3,2,2,1,2",
-			"Sacred Sweep Blind Build": "1,1,3,2,1,1,4",
-			"Detainment Strike Build": "4,2,3,2,4,1,2"
+			"Sacred Sweep Damage Build": [2, 1, 3, 2, 2, 1, 2],
+			"Sacred Sweep Blind Build": [1, 1, 3, 2, 1, 1, 4],
+			"Detainment Strike Build": [4, 2, 3, 2, 4, 1, 2]
 		}
 	},
 	"azmodan": {
@@ -84,7 +84,7 @@
 		"icy-veins": "azmodan",
 		"storm-spy": 7,
 		"builds": {
-			"Battleborn Build": "2,2,1,2,1,1,4"
+			"Battleborn Build": [2, 2, 1, 2, 1, 1, 4]
 		}
 	},
 	"brightwing": {
@@ -93,8 +93,8 @@
 		"icy-veins": "brightwing",
 		"storm-spy": 8,
 		"builds": {
-			"Teleport Build": "2,3,2,2,4,2,2",
-			"Emerald Wind Build ": "1,1,3,2,4,2,3"
+			"Teleport Build": [2, 3, 2, 2, 4, 2, 2],
+			"Emerald Wind Build ": [1, 1, 3, 2, 4, 2, 3]
 		}
 	},
 	"cassia": {
@@ -103,9 +103,9 @@
 		"icy-veins": "cassia",
 		"storm-spy": 9,
 		"builds": {
-			"Charged Strikes Build": "3,2,1,1,1,3,3",
-			"Fend Build": "3,2,1,1,3,2,1",
-			"Lightning Fury Build": "1,2,1,1,2,1,1"
+			"Charged Strikes Build": [3, 2, 1, 1, 1, 3, 3],
+			"Fend Build": [3, 2, 1, 1, 3, 2, 1],
+			"Lightning Fury Build": [1, 2, 1, 1, 2, 1, 1]
 		}
 	},
 	"chen": {
@@ -114,8 +114,8 @@
 		"icy-veins": "chen",
 		"storm-spy": 10,
 		"builds": {
-			"Bruiser Build": "3,1,1,2,1,1,2",
-			"Anti Mage Build": "3,3,3,2,3,3,2"
+			"Bruiser Build": [3, 1, 1, 2, 1, 1, 2],
+			"Anti Mage Build": [3, 3, 3, 2, 3, 3, 2]
 		}
 	},
 	"cho": {
@@ -124,7 +124,7 @@
 		"icy-veins": "cho",
 		"storm-spy": 11,
 		"builds": {
-			"Firestarter Build": "3,3,2,1,1,1,4"
+			"Firestarter Build": [3, 3, 2, 1, 1, 1, 4]
 		}
 	},
 	"chromie": {
@@ -133,7 +133,7 @@
 		"icy-veins": "chromie",
 		"storm-spy": 12,
 		"builds": {
-			"Bronze Talons Build": "3,1,2,1,3,3,3"
+			"Bronze Talons Build": [3, 1, 2, 1, 3, 3, 3]
 		}
 	},
 	"dehaka": {
@@ -142,8 +142,8 @@
 		"icy-veins": "dehaka",
 		"storm-spy": 14,
 		"builds": {
-			"Gank Build": "3,3,1,1,2,1,4",
-			"Team Fight Build": "2,3,3,2,3,3,2"
+			"Gank Build": [3, 3, 1, 1, 2, 1, 4],
+			"Team Fight Build": [2, 3, 3, 2, 3, 3, 2]
 		}
 	},
 	"diablo": {
@@ -152,7 +152,7 @@
 		"icy-veins": "diablo",
 		"storm-spy": 15,
 		"builds": {
-			"Shadow Charge Build": "2,1,3,1,2,2,4"
+			"Shadow Charge Build": [2, 1, 3, 1, 2, 2, 4]
 		}
 	},
 	"dva": {
@@ -161,9 +161,9 @@
 		"icy-veins": "dva",
 		"storm-spy": 13,
 		"builds": {
-			"Mech Mode Boosters Build": "2,3,1,1,1,2,4",
-			"Mech Mode Defense Matrix Build": "4,2,2,1,1,2,4",
-			"Pilot Mode Build": "2,4,1,2,1,1,2"
+			"Mech Mode Boosters Build": [2, 3, 1, 1, 1, 2, 4],
+			"Mech Mode Defense Matrix Build": [4, 2, 2, 1, 1, 2, 4],
+			"Pilot Mode Build": [2, 4, 1, 2, 1, 1, 2]
 		}
 	},
 	"etc": {
@@ -172,7 +172,7 @@
 		"icy-veins": "e-t-c",
 		"storm-spy": 16,
 		"builds": {
-			"Balanced Build": "3,2,2,1,3,3,5"
+			"Balanced Build": [3, 2, 2, 1, 3, 3, 5]
 		}
 	},
 	"falstad": {
@@ -181,9 +181,9 @@
 		"icy-veins": "falstad",
 		"storm-spy": 17,
 		"builds": {
-			"Secret Weapon Build": "2,3,1,2,2,2,4",
-			"Magestad Build": "1,2,2,2,2,2,4",
-			"Tazer Build": "3,1,3,2,1,3,4"
+			"Secret Weapon Build": [2, 3, 1, 2, 2, 2, 4],
+			"Magestad Build": [1, 2, 2, 2, 2, 2, 4],
+			"Tazer Build": [3, 1, 3, 2, 1, 3, 4]
 		}
 	},
 	"gall": {
@@ -192,7 +192,7 @@
 		"icy-veins": "gall",
 		"storm-spy": 18,
 		"builds": {
-			"Shadowflame Build": "2,2,2,1,1,1,1"
+			"Shadowflame Build": [2, 2, 2, 1, 1, 1, 1]
 		}
 	},
 	"garrosh": {
@@ -201,9 +201,9 @@
 		"icy-veins": "garrosh",
 		"storm-spy": 19,
 		"builds": {
-			"Decimate Build": "1,2,1,2,1,3,2",
-			"Main Tank Build": "2,3,4,1,3,3,1",
-			"Body Check Build": "3,2,3,2,3,3,4"
+			"Decimate Build": [1, 2, 1, 2, 1, 3, 2],
+			"Main Tank Build": [2, 3, 4, 1, 3, 3, 1],
+			"Body Check Build": [3, 2, 3, 2, 3, 3, 4]
 		}
 	},
 	"gazlowe": {
@@ -212,8 +212,8 @@
 		"icy-veins": "gazlowe",
 		"storm-spy": 20,
 		"builds": {
-			"Lazor Build": "3,2,3,2,1,1,3",
-			"Bruiser Build": "3,2,2,1,3,1,1"
+			"Lazor Build": [3, 2, 3, 2, 1, 1, 3],
+			"Bruiser Build": [3, 2, 2, 1, 3, 1, 1]
 		}
 	},
 	"genji": {
@@ -222,8 +222,8 @@
 		"icy-veins": "genji",
 		"storm-spy": 21,
 		"builds": {
-			"Shuriken Build": "2,1,2,2,1,1,4",
-			"Swift Strike Build ": "1,2,2,1,2,2,1"
+			"Shuriken Build": [2, 1, 2, 2, 1, 1, 4],
+			"Swift Strike Build ": [1, 2, 2, 1, 2, 2, 1]
 		}
 	},
 	"greymane": {
@@ -232,7 +232,7 @@
 		"icy-veins": "greymane",
 		"storm-spy": 22,
 		"builds": {
-			"Cocktail Party Build": "2,4,2,2,1,2,3"
+			"Cocktail Party Build": [2, 4, 2, 2, 1, 2, 3]
 		}
 	},
 	"guldan": {
@@ -241,8 +241,8 @@
 		"icy-veins": "guldan",
 		"storm-spy": 23,
 		"builds": {
-			"Corruption Build": "3,2,1,1,4,2,1",
-			"Fel Flame Build": "1,2,4,1,1,1,1"
+			"Corruption Build": [3, 2, 1, 1, 4, 2, 1],
+			"Fel Flame Build": [1, 2, 4, 1, 1, 1, 1]
 		}
 	},
 	"hanzo": {
@@ -265,8 +265,8 @@
 		"icy-veins": "illidan",
 		"storm-spy": 24,
 		"builds": {
-			"Metamorphosis Build": "2,2,2,1,3,1,1",
-			"Standard Split Build": "1,2,2,2,3,1,4"
+			"Metamorphosis Build": [2, 2, 2, 1, 3, 1, 1],
+			"Standard Split Build": [1, 2, 2, 2, 3, 1, 4]
 		}
 	},
 	"jaina": {
@@ -275,7 +275,7 @@
 		"icy-veins": "jaina",
 		"storm-spy": 25,
 		"builds": {
-			"Frostbolt Build": "3,1,2,2,3,3,3"
+			"Frostbolt Build": [3, 1, 2, 2, 3, 3, 3]
 		}
 	},
 	"johanna": {
@@ -284,8 +284,8 @@
 		"icy-veins": "johanna",
 		"storm-spy": 26,
 		"builds": {
-			"Defensive Build ": "3,2,3,2,2,1,3",
-			"Bruiser Build": "2,3,3,1,2,1,3"
+			"Defensive Build ": [3, 2, 3, 2, 2, 1, 3],
+			"Bruiser Build": [2, 3, 3, 1, 2, 1, 3]
 		}
 	},
 	"junkrat": {
@@ -301,8 +301,8 @@
 		"icy-veins": "kaelthas",
 		"storm-spy": 27,
 		"builds": {
-			"Flamestrike Build": "1,1,1,1,1,1,4",
-			"Living Bombs Build": "2,1,2,1,1,2,3"
+			"Flamestrike Build": [1, 1, 1, 1, 1, 1, 4],
+			"Living Bombs Build": [2, 1, 2, 1, 1, 2, 3]
 		}
 	},
 	"kelthuzad": {
@@ -311,8 +311,8 @@
 		"icy-veins": "kel-thuzad",
 		"storm-spy": 71,
 		"builds": {
-			"Blighted Frost Build": "2,2,2,2,2,2,2",
-			"Plaguelands Build": "1,2,2,1,2,2,4"
+			"Blighted Frost Build": [2, 2, 2, 2, 2, 2, 2],
+			"Plaguelands Build": [1, 2, 2, 1, 2, 2, 4]
 		}
 	},
 	"kerrigan": {
@@ -321,8 +321,8 @@
 		"icy-veins": "kerrigan",
 		"storm-spy": 28,
 		"builds": {
-			"Pure Damage Build": "2,2,3,1,2,2,4",
-			"Ravage Build": "1,1,3,1,1,1,4"
+			"Pure Damage Build": [2, 2, 3, 1, 2, 2, 4],
+			"Ravage Build": [1, 1, 3, 1, 1, 1, 4]
 		}
 	},
 	"kharazim": {
@@ -331,8 +331,8 @@
 		"icy-veins": "kharazim",
 		"storm-spy": 29,
 		"builds": {
-			"Damage Build": "2,2,1,2,1,2,4",
-			"Transcendence Build": "1,1,1,1,1,1,1"
+			"Damage Build": [2, 2, 1, 2, 1, 2, 4],
+			"Transcendence Build": [1, 1, 1, 1, 1, 1, 1]
 		}
 	},
 	"leoric": {
@@ -341,9 +341,9 @@
 		"icy-veins": "leoric",
 		"storm-spy": 30,
 		"builds": {
-			"Wraith Walk Build ": "1,3,3,1,3,2,1",
-			"Life Leech Build": "1,3,1,2,2,1,2",
-			"Mithril Mace Build": "1,1,2,1,2,3,3"
+			"Wraith Walk Build ": [1, 3, 3, 1, 3, 2, 1],
+			"Life Leech Build": [1, 3, 1, 2, 2, 1, 2],
+			"Mithril Mace Build": [1, 1, 2, 1, 2, 3, 3]
 		}
 	},
 	"lili": {
@@ -366,8 +366,8 @@
 		"icy-veins": "lucio",
 		"storm-spy": 34,
 		"builds": {
-			"Sound Barrier Build": "3,3,1,1,3,1,3",
-			"Reverse Amp Build": "2,3,1,2,3,1,3"
+			"Sound Barrier Build": [3, 3, 1, 1, 3, 1, 3],
+			"Reverse Amp Build": [2, 3, 1, 2, 3, 1, 3]
 		}
 	},
 	"lunara": {
@@ -376,9 +376,9 @@
 		"icy-veins": "lunara",
 		"storm-spy": 35,
 		"builds": {
-			"Basic Attack Build": "3,1,2,2,4,2,4",
-			" Poison Build": "3,1,2,2,4,2,4",
-			" Anti Magic Build": "3,1,2,2,4,2,4"
+			"Basic Attack Build": [3, 1, 2, 2, 4, 2, 4],
+			" Poison Build": [3, 1, 2, 2, 4, 2, 4],
+			" Anti Magic Build": [3, 1, 2, 2, 4, 2, 4]
 		}
 	},
 	"malfurion": {
@@ -387,8 +387,8 @@
 		"icy-veins": "malfurion",
 		"storm-spy": 36,
 		"builds": {
-			"General Build": "3,1,1,2,3,1,3",
-			"Moonkin Build": "1,1,2,2,3,3,3"
+			"General Build": [3, 1, 1, 2, 3, 1, 3],
+			"Moonkin Build": [1, 1, 2, 2, 3, 3, 3]
 		}
 	},
 	"malthael": {
@@ -397,8 +397,8 @@
 		"icy-veins": "malthael",
 		"storm-spy": 37,
 		"builds": {
-			"Soul Rip Build": "3,1,1,1,1,1,3",
-			"Reaper Build": "3,3,2,1,3,3,3"
+			"Soul Rip Build": [3, 1, 1, 1, 1, 1, 3],
+			"Reaper Build": [3, 3, 2, 1, 3, 3, 3]
 		}
 	},
 	"medivh": {
@@ -407,8 +407,8 @@
 		"icy-veins": "medivh",
 		"storm-spy": 38,
 		"builds": {
-			"Raven Build": "1,2,2,1,1,3,1",
-			"Portal Build": "1,2,2,1,1,3,1"
+			"Raven Build": [1, 2, 2, 1, 1, 3, 1],
+			"Portal Build": [1, 2, 2, 1, 1, 3, 1]
 		}
 	},
 	"ltmorales": {
@@ -424,8 +424,8 @@
 		"icy-veins": "muradin",
 		"storm-spy": 39,
 		"builds": {
-			"Neutral Build": "2,3,2,1,1,3,1",
-			"Dwarf Toss Build": "2,3,1,1,1,1,4"
+			"Neutral Build": [2, 3, 2, 1, 1, 3, 1],
+			"Dwarf Toss Build": [2, 3, 1, 1, 1, 1, 4]
 		}
 	},
 	"murky": {
@@ -434,7 +434,7 @@
 		"icy-veins": "murky",
 		"storm-spy": 40,
 		"builds": {
-			"Balanced Build": "3,3,1,2,1,2,3"
+			"Balanced Build": [3, 3, 1, 2, 1, 2, 3]
 		}
 	},
 	"nazeebo": {
@@ -443,8 +443,8 @@
 		"icy-veins": "nazeebo",
 		"storm-spy": 41,
 		"builds": {
-			"Toad Build": "2,2,3,1,3,3,4",
-			"Zombie Build": "3,2,2,1,3,3,4"
+			"Toad Build": [2, 2, 3, 1, 3, 3, 4],
+			"Zombie Build": [3, 2, 2, 1, 3, 3, 4]
 		}
 	},
 	"nova": {
@@ -453,7 +453,7 @@
 		"icy-veins": "nova",
 		"storm-spy": 42,
 		"builds": {
-			"One in The Chamber Build": "1,1,1,2,1,2,3"
+			"One in The Chamber Build": [1, 1, 1, 2, 1, 2, 3]
 		}
 	},
 	"probius": {
@@ -462,9 +462,9 @@
 		"icy-veins": "probius",
 		"storm-spy": 43,
 		"builds": {
-			"Disruption Pulse Build": "1,2,1,1,2,3,4",
-			"Photon Cannon Build": "3,2,3,2,2,2,2",
-			"Warp Rift Build": "2,2,2,1,2,3,1"
+			"Disruption Pulse Build": [1, 2, 1, 1, 2, 3, 4],
+			"Photon Cannon Build": [3, 2, 3, 2, 2, 2, 2],
+			"Warp Rift Build": [2, 2, 2, 1, 2, 3, 1]
 		}
 	},
 	"ragnaros": {
@@ -473,9 +473,9 @@
 		"icy-veins": "ragnaros",
 		"storm-spy": 44,
 		"builds": {
-			"Empower Sulfuras Build": "1,3,1,1,1,1,3",
-			"Living Meteor Build": "2,2,2,1,1,2,3",
-			"Blast Wave Build": "3,3,3,1,2,3,3"
+			"Empower Sulfuras Build": [1, 3, 1, 1, 1, 1, 3],
+			"Living Meteor Build": [2, 2, 2, 1, 1, 2, 3],
+			"Blast Wave Build": [3, 3, 3, 1, 2, 3, 3]
 		}
 	},
 	"raynor": {
@@ -484,7 +484,7 @@
 		"icy-veins": "raynor",
 		"storm-spy": 45,
 		"builds": {
-			"Basic Attack Build": "2,1,2,1,1,3,4"
+			"Basic Attack Build": [2, 1, 2, 1, 1, 3, 4]
 		}
 	},
 	"rehgar": {
@@ -493,8 +493,8 @@
 		"icy-veins": "rehgar",
 		"storm-spy": 46,
 		"builds": {
-			"AoE Heal Build": "1,4,3,1,2,1,4",
-			"Single Target Protection Build": "3,4,3,1,1,1,4"
+			"AoE Heal Build": [1, 4, 3, 1, 2, 1, 4],
+			"Single Target Protection Build": [3, 4, 3, 1, 1, 1, 4]
 		}
 	},
 	"rexxar": {
@@ -503,8 +503,8 @@
 		"icy-veins": "rexxar",
 		"storm-spy": 47,
 		"builds": {
-			"True Survivor Build": "1,4,1,2,3,3,4",
-			"Laning Misha Build": "1,1,1,1,3,1,3"
+			"True Survivor Build": [1, 4, 1, 2, 3, 3, 4],
+			"Laning Misha Build": [1, 1, 1, 1, 3, 1, 3]
 		}
 	},
 	"samuro": {
@@ -513,8 +513,8 @@
 		"icy-veins": "samuro",
 		"storm-spy": 48,
 		"builds": {
-			"Harsh Winds Build": "2,1,1,1,3,2,3",
-			"Illusion Master Build": "2,1,2,2,1,3,2"
+			"Harsh Winds Build": [2, 1, 1, 1, 3, 2, 3],
+			"Illusion Master Build": [2, 1, 2, 2, 1, 3, 2]
 		}
 	},
 	"sonya": {
@@ -523,8 +523,8 @@
 		"icy-veins": "sonya",
 		"storm-spy": 50,
 		"builds": {
-			"Whirlwind Build": "2,3,1,2,1,4,4",
-			"Burst Build": "1,1,1,1,3,4,4"
+			"Whirlwind Build": [2, 3, 1, 2, 1, 4, 4],
+			"Burst Build": [1, 1, 1, 1, 3, 4, 4]
 		}
 	},
 	"stitches": {
@@ -533,8 +533,8 @@
 		"icy-veins": "stitches",
 		"storm-spy": 51,
 		"builds": {
-			"Slam Build": "4,3,4,1,2,1,1",
-			"Sustain Build": "3,1,1,1,3,2,4"
+			"Slam Build": [4, 3, 4, 1, 2, 1, 1],
+			"Sustain Build": [3, 1, 1, 1, 3, 2, 4]
 		}
 	},
 	"stukov": {
@@ -543,10 +543,10 @@
 		"icy-veins": "stukov",
 		"storm-spy": 52,
 		"builds": {
-			"Poppin' Pustules Build": "4,1,1,2,1,3,3",
-			"Lurking Arm Build": "3,1,2,2,3,3,2",
-			"Spine Launcher Build": "1,4,4,2,4,2,3",
-			"Weighted Pustule Build": "2,1,1,2,1,3,2"
+			"Poppin' Pustules Build": [4, 1, 1, 2, 1, 3, 3],
+			"Lurking Arm Build": [3, 1, 2, 2, 3, 3, 2],
+			"Spine Launcher Build": [1, 4, 4, 2, 4, 2, 3],
+			"Weighted Pustule Build": [2, 1, 1, 2, 1, 3, 2]
 		}
 	},
 	"sylvanas": {
@@ -555,7 +555,7 @@
 		"icy-veins": "sylvanas",
 		"storm-spy": 53,
 		"builds": {
-			"Shadow Dagger Build": "1,3,1,1,2,2,4"
+			"Shadow Dagger Build": [1, 3, 1, 1, 2, 2, 4]
 		}
 	},
 	"tassadar": {
@@ -564,8 +564,8 @@
 		"icy-veins": "tassadar",
 		"storm-spy": 54,
 		"builds": {
-			"Templar's Will Build": "2,2,3,1,2,3,3",
-			"Offensive Support Build": "1,2,1,1,2,2,1"
+			"Templar's Will Build": [2, 2, 3, 1, 2, 3, 3],
+			"Offensive Support Build": [1, 2, 1, 1, 2, 2, 1]
 		}
 	},
 	"thebutcher": {
@@ -581,8 +581,8 @@
 		"icy-veins": "thrall",
 		"storm-spy": 57,
 		"builds": {
-			"Standard Sundering Build": "1,3,3,1,2,1,4",
-			"Feral Spirit Build": "1,2,3,2,1,3,4"
+			"Standard Sundering Build": [1, 3, 3, 1, 2, 1, 4],
+			"Feral Spirit Build": [1, 2, 3, 2, 1, 3, 4]
 		}
 	},
 	"thelostvikings": {
@@ -598,8 +598,8 @@
 		"icy-veins": "tracer",
 		"storm-spy": 58,
 		"builds": {
-			"Burst Damage Build": "1,1,1,2,1,1,1",
-			"Basic Attack Build": "3,3,2,3,3,1,2"
+			"Burst Damage Build": [1, 1, 1, 2, 1, 1, 1],
+			"Basic Attack Build": [3, 3, 2, 3, 3, 1, 2]
 		}
 	},
 	"tychus": {
@@ -608,8 +608,8 @@
 		"icy-veins": "tychus",
 		"storm-spy": 59,
 		"builds": {
-			"Minigun Build": "1,1,1,2,1,1,2",
-			"Overkill Build": "1,3,1,1,3,3,1"
+			"Minigun Build": [1, 1, 1, 2, 1, 1, 2],
+			"Overkill Build": [1, 3, 1, 1, 3, 3, 1]
 		}
 	},
 	"tyrael": {
@@ -618,8 +618,8 @@
 		"icy-veins": "tyrael",
 		"storm-spy": 60,
 		"builds": {
-			"Aggressive Build": "1,1,2,1,1,2,1",
-			"Defensive Build": "1,2,3,2,2,2,3"
+			"Aggressive Build": [1, 1, 2, 1, 1, 2, 1],
+			"Defensive Build": [1, 2, 3, 2, 2, 2, 3]
 		}
 	},
 	"tyrande": {
@@ -628,8 +628,8 @@
 		"icy-veins": "tyrande",
 		"storm-spy": 61,
 		"builds": {
-			"Owl Build ": "1,1,3,2,2,2,4",
-			"Lunar Blaze Stun Build ": "2,1,3,1,3,2,4"
+			"Owl Build ": [1, 1, 3, 2, 2, 2, 4],
+			"Lunar Blaze Stun Build ": [2, 1, 3, 1, 3, 2, 4]
 		}
 	},
 	"uther": {
@@ -638,7 +638,7 @@
 		"icy-veins": "uther",
 		"storm-spy": 62,
 		"builds": {
-			"Holy Radiance Build": "2,3,2,1,2,3,4"
+			"Holy Radiance Build": [2, 3, 2, 1, 2, 3, 4]
 		}
 	},
 	"valeera": {
@@ -647,10 +647,10 @@
 		"icy-veins": "valeera",
 		"storm-spy": 63,
 		"builds": {
-			"Energy Build": "1,1,4,1,2,4,3",
-			"Garrote Build": "1,2,3,1,1,2,3",
-			"Sinister Strike Build": "1,1,1,1,1,1,3",
-			"Vanish Build": "2,3,2,1,1,4,3"
+			"Energy Build": [1, 1, 4, 1, 2, 4, 3],
+			"Garrote Build": [1, 2, 3, 1, 1, 2, 3],
+			"Sinister Strike Build": [1, 1, 1, 1, 1, 1, 3],
+			"Vanish Build": [2, 3, 2, 1, 1, 4, 3]
 		}
 	},
 	"valla": {
@@ -659,9 +659,9 @@
 		"icy-veins": "valla",
 		"storm-spy": 64,
 		"builds": {
-			"Multishot Build": "3,2,1,1,2,1,1",
-			"Hungering Arrow Build": "1,1,3,2,1,1,4",
-			"Rancor Build": "3,3,2,2,2,3,3"
+			"Multishot Build": [3, 2, 1, 1, 2, 1, 1],
+			"Hungering Arrow Build": [1, 1, 3, 2, 1, 1, 4],
+			"Rancor Build": [3, 3, 2, 2, 2, 3, 3]
 		}
 	},
 	"varian": {
@@ -670,9 +670,9 @@
 		"icy-veins": "varian",
 		"storm-spy": 65,
 		"builds": {
-			"Protection Build": "2,1,1,1,2,2,4",
-			"Arms Build": "3,1,1,2,1,3,2",
-			"Fury Build": "3,1,2,3,2,2,4"
+			"Protection Build": [2, 1, 1, 1, 2, 2, 4],
+			"Arms Build": [3, 1, 1, 2, 1, 3, 2],
+			"Fury Build": [3, 1, 2, 3, 2, 2, 4]
 		}
 	},
 	"xul": {
@@ -681,9 +681,9 @@
 		"icy-veins": "xul",
 		"storm-spy": 66,
 		"builds": {
-			"Cursed Strikes Build": "1,2,1,2,2,1,2",
-			"Scythe Build": "1,1,3,2,1,1,3",
-			"Skeleton Build ": "2,3,3,2,3,2,4"
+			"Cursed Strikes Build": [1, 2, 1, 2, 2, 1, 2],
+			"Scythe Build": [1, 1, 3, 2, 1, 1, 3],
+			"Skeleton Build ": [2, 3, 3, 2, 3, 2, 4]
 		}
 	},
 	"zagara": {
@@ -692,8 +692,8 @@
 		"icy-veins": "zagara",
 		"storm-spy": 67,
 		"builds": {
-			"Split Push Build": "3,2,1,2,3,3,2",
-			"Team Fight Build": "2,1,2,1,3,2,3"
+			"Split Push Build": [3, 2, 1, 2, 3, 3, 2],
+			"Team Fight Build": [2, 1, 2, 1, 3, 2, 3]
 		}
 	},
 	"zarya": {
@@ -702,8 +702,8 @@
 		"icy-veins": "zarya",
 		"storm-spy": 68,
 		"builds": {
-			"Anti Melee Build": "3,3,3,2,4,3,4",
-			"Grenadier Build": "1,2,1,2,4,1,4"
+			"Anti Melee Build": [3, 3, 3, 2, 4, 3, 4],
+			"Grenadier Build": [1, 2, 1, 2, 4, 1, 4]
 		}
 	},
 	"zeratul": {
@@ -712,7 +712,7 @@
 		"icy-veins": "zeratul",
 		"storm-spy": 69,
 		"builds": {
-			"Mobility Build": "2,3,3,2,3,3,4"
+			"Mobility Build": [2, 3, 3, 2, 3, 3, 4]
 		}
 	},
 	"zuljin": {
@@ -721,8 +721,8 @@
 		"icy-veins": "zuljin",
 		"storm-spy": 70,
 		"builds": {
-			"Basic Attack Build": "2,3,3,1,2,3,1",
-			"Twin Cleave Build": "2,3,2,2,1,2,2"
+			"Basic Attack Build": [2, 3, 3, 1, 2, 3, 1],
+			"Twin Cleave Build": [2, 3, 2, 2, 1, 2, 2]
 		}
 	}
 }
