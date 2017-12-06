@@ -25,7 +25,7 @@
 		"hots-pch-nts": "alexstraza",
 		"icy-veins": "alexstraza",
 		"storm-spy": 74,
-		"builds": None
+		"builds": ""
 	},
 	"ana": {
 		"hots-cntr": "ana",
@@ -250,14 +250,14 @@
 		"hots-pch-nts": "hanzo",
 		"icy-veins": "hanzo",
 		"storm-spy": 75,
-		"builds": None
+		"builds": ""
 	},
 	"sgthammer": {
 		"hots-cntr": "sgthammer",
 		"hots-pch-nts": "sgthammer",
 		"icy-veins": "sgt-hammer",
 		"storm-spy": 49,
-		"builds": None
+		"builds": ""
 	},
 	"illidan": {
 		"hots-cntr": "illidan",
@@ -293,7 +293,7 @@
 		"hots-pch-nts": "junkrat",
 		"icy-veins": "junkrat",
 		"storm-spy": 73,
-		"builds": None
+		"builds": ""
 	},
 	"kaelthas": {
 		"hots-cntr": "kaelthas",
@@ -351,14 +351,14 @@
 		"hots-pch-nts": "lili",
 		"icy-veins": "li-li",
 		"storm-spy": 31,
-		"builds": None
+		"builds": ""
 	},
 	"liming": {
 		"hots-cntr": "liming",
 		"hots-pch-nts": "liming",
 		"icy-veins": "li-ming",
 		"storm-spy": 32,
-		"builds": None
+		"builds": ""
 	},
 	"lucio": {
 		"hots-cntr": "lucio",
@@ -416,7 +416,7 @@
 		"hots-pch-nts": "ltmorales",
 		"icy-veins": "lt-morales",
 		"storm-spy": 33,
-		"builds": None
+		"builds": ""
 	},
 	"muradin": {
 		"hots-cntr": "muradin",
@@ -543,7 +543,7 @@
 		"icy-veins": "stukov",
 		"storm-spy": 52,
 		"builds": {
-			"Poppin" Pustules Build": "4,1,1,2,1,3,3",
+			"Poppin' Pustules Build": "4,1,1,2,1,3,3",
 			"Lurking Arm Build": "3,1,2,2,3,3,2",
 			"Spine Launcher Build": "1,4,4,2,4,2,3",
 			"Weighted Pustule Build": "2,1,1,2,1,3,2"
@@ -564,7 +564,7 @@
 		"icy-veins": "tassadar",
 		"storm-spy": 54,
 		"builds": {
-			"Templar"s Will Build": "2,2,3,1,2,3,3",
+			"Templar's Will Build": "2,2,3,1,2,3,3",
 			"Offensive Support Build": "1,2,1,1,2,2,1"
 		}
 	},
@@ -573,7 +573,7 @@
 		"hots-pch-nts": "butcher",
 		"icy-veins": "the-butcher",
 		"storm-spy": 55,
-		"builds": None
+		"builds": ""
 	},
 	"thrall": {
 		"hots-cntr": "thrall",
@@ -590,7 +590,7 @@
 		"hots-pch-nts": "thelostvikings",
 		"icy-veins": "the-lost-vikings",
 		"storm-spy": 56,
-		"builds": None
+		"builds": ""
 	},
 	"tracer": {
 		"hots-cntr": "tracer",
