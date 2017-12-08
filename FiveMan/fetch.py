@@ -17,6 +17,11 @@ def get_hero_details(hero):
     '''Return hero details including talents and abilities'''
     return requests.get(GET_HERO_DETAILS_URL.format(hero=hero)).json()
 
+def get_hero_talents(hero):
+    '''Returns just the talents for a hero'''
+    details = requests.get(GET_HERO_DETAILS_URL.format(hero=hero)).json()
+    return details['talents']
+
 def get_talent_info(talent):
     '''Return talent details'''
     return requests.get(GET_TALENT_URL.format(talent=talent)).json()

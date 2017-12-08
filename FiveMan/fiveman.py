@@ -11,7 +11,6 @@ from hots_build_builder import BuildBuilder
 
 CLIENT = discord.Client()
 CONFIGS = json_loader.get_json("config.json")
-JSON_KEYS = json_loader.get_json("keys.json")
 HEROES_JSON = json_loader.get_json("heroes.json")
 BUILD_BUILDER = BuildBuilder()
 KEY = os.environ.get('FIVE_MAN')#JSON_KEYS['five-man']
