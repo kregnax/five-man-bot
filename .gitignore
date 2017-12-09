@@ -37,3 +37,4 @@ __pycache__
 
 .voice_lines
 .temp
+.env

@@ -1,85 +1,84 @@
-import discord
 import asyncio
-from bs4 import BeautifulSoup
-import urllib.request
-import random
-import re
-import sys
 import os
-import json
-import json_loader
+
+import discord
+
+import blizzard
+import db_worker
 import fetch
-import requests
-import time
+import json_loader
 from hots_build_builder import BuildBuilder
 
-client = discord.Client()
-configs = json_loader.get_json("config.json")
-keys = json_loader.get_json("keys.json")
-text_commands = json_loader.get_json("text_commands.json")
-heroes_json = json_loader.get_json("heroes.json")
-build_builder = BuildBuilder()
+CLIENT = discord.Client()
+CONFIGS = json_loader.get_json("config.json")
+HEROES_JSON = json_loader.get_json("heroes.json")
+BUILD_BUILDER = BuildBuilder()
+KEY = os.environ.get('FIVE_MAN')#JSON_KEYS['five-man']
+JAWS_VARS = ['JAWSDB_NAME', 'JAWSDB_PASS', 'JAWSDB_HOST', 'JAWSDB_USER']
+JAWS_VALS = [os.environ.get(key) for key in JAWS_VARS]
+JAWS_DICT = dict(zip(JAWS_VARS, JAWS_VALS))
+TEXT_COMMANDS = db_worker.get_text_commands_dict(db_worker.get_connection(JAWS_DICT))
 
-KEY = keys['five-man']
 
-@client.event
+@CLIENT.event
 async def on_ready():
     print('Logged in as')
-    print(client.user.name)
-    print(client.user.id)
+    print(CLIENT.user.name)
+    print(CLIENT.user.id)
     print('--------')
 
-@client.event
+@CLIENT.event
 async def on_message(message):
-    #TODO: use message.attachments to save images with text command
-    if(message.content.startswith("$test")):
-        if('lost vikings' in heroes_json['tlv']['alias']['misc']):
-            await client.send_message(message.channel,heroes_json['tlv']['alias']['hots-cntr'])
+    if(message.content.startswith("!registertag")):
+        discordID = str(message.author)
+        battletag = message.content.split()[1]
+        db_worker.register_discordID_for_battletag(db_worker.get_connection(JAWS_DICT), discordID, battletag)
     if(message.content.startswith("!build")):
         hero = message.content.split()[1]
-        print(hero)
-        builds = build_builder.get_builds_for_hero(hero)
-        await client.send_message(message.channel, builds)
+        builds = BUILD_BUILDER.get_builds_for_hero(hero)
+        await CLIENT.send_message(message.channel, builds)
     if(message.content.startswith("[[")):
+        info_request = message.content[2:-2].lower()
+        msg = BUILD_BUILDER.process_request(info_request)
         talent = message.content[2:-2].lower()
-        description = build_builder.get_talent(talent)
-        await client.send_message(message.channel, description)
+        #description = BUILD_BUILDER.get_talent(talent)
+        await CLIENT.send_message(message.channel, msg)
     if(message.content.startswith("!addtxtcmd")):
         if(str(message.author) == "kregnax#2710"):
             cmd_in = message.content.split()
             if(cmd_in[0] == "!addtxtcmd"):
-                text_commands[cmd_in[1]] = ''.join(w+' ' for w in cmd_in[2:]).strip()
-                temp_json = json.dumps(text_commands)
-                temp_json = json.loads(temp_json)
-                with open('text_commands.json','w') as f:
-                    json.dump(temp_json, f,indent=4)
+                text_command = cmd_in[1]
+                text_output = ''.join(w + ' ' for w in cmd_in[2:]).strip()
+                TEXT_COMMANDS[text_command] = text_output
+                db_worker.add_new_text_command(db_worker.get_connection(JAWS_DICT), text_command, text_output)
             else:
-                await client.send_message(message.channel, "Unrecognized command: {}".format(cmd_in[0]))
+                await CLIENT.send_message(message.channel, "Unrecognized command: {}".format(cmd_in[0]))
         else:
-            await client.send_message(message.channel, "You don't have access, pleb.")
+            await CLIENT.send_message(message.channel, "You don't have access, pleb.")
     if(message.content == "?text"):
-        commands = 'Available text commands:\n';
-        for k, v in text_commands.items():
+        commands = 'Available text commands:\n'
+        for k, v in TEXT_COMMANDS.items():
             commands += "!{}\n".format(k)
-        await client.send_message(message.channel, commands)
+        await CLIENT.send_message(message.channel, commands)
     if(message.content.startswith('!')):
         command = str(message.content).split()[0][1:]
-        if(command in text_commands):
-            await client.send_message(message.channel, text_commands[command])
+        if(command in TEXT_COMMANDS):
+            await CLIENT.send_message(message.channel, TEXT_COMMANDS[command])
     if(message.content.startswith('!strong')):
         hero = message.content.split()[1]
         counters = fetch.get_strong_counters(hero)
-        await client.send_message(message.channel, counters)
+        await CLIENT.send_message(message.channel, counters)
     if(message.content.startswith('!weak')):
         hero = message.content.split()[1]
         counters = fetch.get_weak_counters(hero)
-        await client.send_message(message.channel, counters)
+        await CLIENT.send_message(message.channel, counters)
     if(message.content.startswith('!patchfor')):
         hero = message.content.split()[1]
         counters = fetch.get_hero_patch_notes(hero)
-        await client.send_message(message.channel, counters)
+        await CLIENT.send_message(message.channel, counters)
     if(message.content.startswith('!patchnotes')):
         patch_notes_link = fetch.get_latest_patch_notes()
-        patch_notes_link = '3 most recent patches:\n'+patch_notes_link
-        await client.send_message(message.channel, patch_notes_link)
-client.run(KEY)
+        patch_notes_link = '3 most recent patches:\n' + patch_notes_link
+        await CLIENT.send_message(message.channel, patch_notes_link)
+
+CLIENT.run(KEY)
