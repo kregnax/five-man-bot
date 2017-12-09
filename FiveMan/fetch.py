@@ -59,7 +59,7 @@ def get_latest_patch_notes():
 
 def get_hero_patch_notes(hero):
     '''Fetches scraped list of the last change notes for given hero'''
-    if hero.lower() in get_hero_name(hero.lower()):
+    if get_hero_name(hero.lower()) != "HeroError":
         hero = get_hero_content_name(hero.lower(), "hots-pch-nts")
         url = "https://heroespatchnotes.com/hero/{}.html".format(hero)
         page = requests.get(url, verify=False)
@@ -68,12 +68,12 @@ def get_hero_patch_notes(hero):
         for elem in soup.find("div", class_="panel panel-primary").find_all("li"):
             notes_list.append(elem.get_text())
     else:
-        return "Not a valid hero"
+        return "Not a valid hero"ln
     return '\n'.join(notes_list)
 
 def get_weak_counters(hero):
     '''Fetches counters that a hero is weak against'''
-    if hero.lower() in get_hero_name(hero.lower()):
+    if get_hero_name(hero.lower()) != "HeroError":
         hero = get_hero_content_name(hero.lower(), "hots-cntr")
         url = 'https://www.heroescounters.com/hero/{}'.format(hero)
         page = requests.get(url, verify=False)
@@ -92,7 +92,7 @@ def get_weak_counters(hero):
 
 def get_strong_counters(hero):
     '''Fetches counters that a hero is strong against'''
-    if hero.lower() in get_hero_name(hero.lower()):
+    if get_hero_name(hero.lower()) != "HeroError":
         hero = get_hero_content_name(hero.lower(), "hots-cntr")
         url = 'https://www.heroescounters.com/hero/{}'.format(hero)
         page = requests.get(url, verify=False)
