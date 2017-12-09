@@ -10,7 +10,6 @@ import json_loader
 from hots_build_builder import BuildBuilder
 
 CLIENT = discord.Client()
-CONFIGS = json_loader.get_json("config.json")
 JSON_KEYS = json_loader.get_json("keys.json")
 HEROES_JSON = json_loader.get_json("heroes.json")
 BUILD_BUILDER = BuildBuilder()
