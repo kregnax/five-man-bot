@@ -34,7 +34,7 @@ async def on_message(message):
         battletag = message.content.split()[1]
         db_worker.register_discordID_for_battletag(db_worker.get_connection(JAWS_DICT), discordID, battletag)
     if(message.content.startswith("!build")):
-        hero = message.content.split()[1]
+        hero = ''.join(message.content.split()[1:])
         builds = BUILD_BUILDER.get_builds_for_hero(hero)
         await CLIENT.send_message(message.channel, builds)
     if(message.content.startswith("[[")):
@@ -65,15 +65,15 @@ async def on_message(message):
         if(command in TEXT_COMMANDS):
             await CLIENT.send_message(message.channel, TEXT_COMMANDS[command])
     if(message.content.startswith('!strong')):
-        hero = message.content.split()[1]
+        hero = ''.join(message.content.split()[1:])
         counters = fetch.get_strong_counters(hero)
         await CLIENT.send_message(message.channel, counters)
     if(message.content.startswith('!weak')):
-        hero = message.content.split()[1]
+        hero = ''.join(message.content.split()[1:])
         counters = fetch.get_weak_counters(hero)
         await CLIENT.send_message(message.channel, counters)
     if(message.content.startswith('!patchfor')):
-        hero = message.content.split()[1]
+        hero = ''.join(message.content.split()[1:])
         counters = fetch.get_hero_patch_notes(hero)
         await CLIENT.send_message(message.channel, counters)
     if(message.content.startswith('!patchnotes')):
