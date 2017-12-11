@@ -53,7 +53,7 @@ async def on_message(message):
             else:
                 await CLIENT.send_message(message.channel, "Unrecognized command: {}".format(cmd_in[0]))
         else:
-            await CLIENT.send_message(message.channel, "You don't have access, pleb.")
+            await CLIENT.send_message(message.channel, "You don't have access, fool.")
     if(message.content == "?text"):
         commands = 'Available text commands:\n'
         for k, v in TEXT_COMMANDS.items():
