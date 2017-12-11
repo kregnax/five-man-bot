@@ -20,10 +20,10 @@
 			"Lightning Surge Build": [2, 2, 1, 2, 3, 2, 4]
 		}
 	},
-	"alexstrasza": {
-		"hots-cntr": "alexstrasza",
-		"hots-pch-nts": "alexstrasza",
-		"icy-veins": "alexstrasza",
+	"alexstraza": {
+		"hots-cntr": "alexstraza",
+		"hots-pch-nts": "alexstraza",
+		"icy-veins": "alexstraza",
 		"storm-spy": 74,
 		"builds": {
 			"Flame Build": [3,2,3,2,2,3,3],
