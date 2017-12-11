@@ -10,7 +10,6 @@ import json_loader
 from hots_build_builder import BuildBuilder
 
 CLIENT = discord.Client()
-HEROES_JSON = json_loader.get_json("heroes.json")
 BUILD_BUILDER = BuildBuilder()
 KEY = os.environ.get('FIVE_MAN')#JSON_KEYS['five-man']
 JAWS_VARS = ['JAWSDB_NAME', 'JAWSDB_PASS', 'JAWSDB_HOST', 'JAWSDB_USER']

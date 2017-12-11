@@ -7,7 +7,6 @@ class BuildBuilder(object):
     VALID_LEVELS = [1, 4, 7, 10, 13, 16, 20]
 
     def __init__(self):
-        self.heroes_json = json_loader.get_json("heroes.json")
         self.content_lookup = json_loader.get_json("content_lookup.json")
         #TODO: break this out into smaller functions so selection of
         #       builds can be more granular, i.e. create a
@@ -42,7 +41,10 @@ class BuildBuilder(object):
             final_build += '__{build_name}__\n'.format(build_name=build_name)
             for i, choice in enumerate(talent_choices):
                 level = self.VALID_LEVELS[i]
-                talent_title = (talent['title'] for talent in hero_talents if talent['level']==level and talent['sort']==choice).__next__()
+                try:
+                    talent_title = (talent['title'] for talent in hero_talents if talent['level']==level and talent['sort']==choice).__next__()
+                except StopIteration as e:
+                    talent_title = 'Talent not found for Level {level} and Sort {sort}.'.format(level=level, sort=choice)
                 final_build += '\t{level} : {talent_title}\n'.format(level=level, talent_title=talent_title)
         return final_build
 
