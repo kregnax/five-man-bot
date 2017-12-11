@@ -35,6 +35,7 @@ ehthumbs.db
 Thumbs.db
 __pycache__
 
+.vscode
 .voice_lines
 .temp
 .env
