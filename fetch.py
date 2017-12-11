@@ -4,6 +4,30 @@ import json_loader
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
+GET_ALL_HEROES_URL = 'http://hotsapi.net/api/v1/heroes'
+GET_HERO_DETAILS_URL = 'http://hotsapi.net/api/v1/heroes/{hero}'
+GET_TALENT_URL = 'http://hotsapi.net/api/v1/talents/{talent}'
+GET_ABILITY_URL = 'http://hotsapi.net/api/v1/heroes/{hero}/abilities/{hotkey}'
+
+def get_all_heroes():
+    '''Return complete hero info from hotsapi'''
+    return requests.get(GET_ALL_HEROES_URL).json()
+
+def get_hero_details(hero):
+    '''Return hero details including talents and abilities'''
+    return requests.get(GET_HERO_DETAILS_URL.format(hero=hero)).json()
+
+def get_hero_talents(hero):
+    '''Returns just the talents for a hero'''
+    details = requests.get(GET_HERO_DETAILS_URL.format(hero=hero)).json()
+    return details['talents']
+
+def get_talent_info(talent):
+    '''Return talent details'''
+    return requests.get(GET_TALENT_URL.format(talent=talent)).json()
+
+def get_hero_ability_for_hotkey(hero, hotkey):
+    return requests.get(GET_ABILITY_URL.format(hero=hero, hotkey=hotkey)).json()
 
 def get_hero_name(hero):
     '''Return correct hero name when given alias name'''

@@ -1,451 +1,728 @@
-{"abathur":{  
-         "hots-cntr":"abathur",
-         "hots-pch-nts":"abathur",
-         "icy-veins":"abathur",
-         "storm-spy":1
-      },
-"alarak":{  
-         "hots-cntr":"alarak",
-         "hots-pch-nts":"alarak",
-         "icy-veins":"alarak",
-         "storm-spy":2
-      },
-"alexstraza":{  
-         "hots-cntr":"alexstraza",
-         "hots-pch-nts":"alexstraza",
-         "icy-veins":"alexstraza",
-         "storm-spy":74
-      },
-"ana":{  
-         "hots-cntr":"ana",
-         "hots-pch-nts":"ana",
-         "icy-veins":"ana",
-         "storm-spy":72
-      },
-"anubarak":{  
-         "hots-cntr":"anubarak",
-         "hots-pch-nts":"anubarak",
-         "icy-veins":"anubarak",
-         "storm-spy":3
-      },
-"artanis":{  
-         "hots-cntr":"artanis",
-         "hots-pch-nts":"artanis",
-         "icy-veins":"artanis",
-         "storm-spy":4
-      },
-"arthas":{  
-         "hots-cntr":"arthas",
-         "hots-pch-nts":"arthas",
-         "icy-veins":"arthas",
-         "storm-spy":5
-      },
-"auriel":{  
-         "hots-cntr":"auriel",
-         "hots-pch-nts":"auriel",
-         "icy-veins":"auriel",
-         "storm-spy":6
-      },
-"azmodan":{  
-         "hots-cntr":"azmodan",
-         "hots-pch-nts":"azmodan",
-         "icy-veins":"azmodan",
-         "storm-spy":7
-      },
-"brightwing":{  
-         "hots-cntr":"brightwing",
-         "hots-pch-nts":"brightwing",
-         "icy-veins":"brightwing",
-         "storm-spy":8
-      },
-"cassia":{  
-         "hots-cntr":"cassia",
-         "hots-pch-nts":"cassia",
-         "icy-veins":"cassia",
-         "storm-spy":9
-      },
-"chen":{  
-         "hots-cntr":"chen",
-         "hots-pch-nts":"chen",
-         "icy-veins":"chen",
-         "storm-spy":10
-      },
-"cho":{  
-         "hots-cntr":"chogall",
-         "hots-pch-nts":"cho",
-         "icy-veins":"cho",
-         "storm-spy":11
-      },
-"chromie":{  
-         "hots-cntr":"chromie",
-         "hots-pch-nts":"chromie",
-         "icy-veins":"chromie",
-         "storm-spy":12
-      },
-"dehaka":{  
-         "hots-cntr":"dehaka",
-         "hots-pch-nts":"dehaka",
-         "icy-veins":"dehaka",
-         "storm-spy":14
-      },
-"diablo":{  
-         "hots-cntr":"diablo",
-         "hots-pch-nts":"diablo",
-         "icy-veins":"diablo",
-         "storm-spy":15
-      },
-"dva":{  
-         "hots-cntr":"dva",
-         "hots-pch-nts":"dva",
-         "icy-veins":"dva",
-         "storm-spy":13
-      },
-"etc":{  
-         "hots-cntr":"etc",
-         "hots-pch-nts":"etc",
-         "icy-veins":"e-t-c",
-         "storm-spy":16
-      },
-"falstad":{  
-         "hots-cntr":"falstad",
-         "hots-pch-nts":"falstad",
-         "icy-veins":"falstad",
-         "storm-spy":17
-      },
-"gall":{  
-         "hots-cntr":"chogall",
-         "hots-pch-nts":"gall",
-         "icy-veins":"gall",
-         "storm-spy":18
-      },
-"garrosh":{  
-         "hots-cntr":"garrosh",
-         "hots-pch-nts":"garrosh",
-         "icy-veins":"garrosh",
-         "storm-spy":19
-      },
-"gazlowe":{  
-         "hots-cntr":"gazlowe",
-         "hots-pch-nts":"gazlowe",
-         "icy-veins":"gazlowe",
-         "storm-spy":20
-      },
-"genji":{  
-         "hots-cntr":"genji",
-         "hots-pch-nts":"genji",
-         "icy-veins":"genji",
-         "storm-spy":21
-      },
-"greymane":{  
-         "hots-cntr":"greymane",
-         "hots-pch-nts":"greymane",
-         "icy-veins":"greymane",
-         "storm-spy":22
-      },
-"guldan":{  
-         "hots-cntr":"guldan",
-         "hots-pch-nts":"guldan",
-         "icy-veins":"guldan",
-         "storm-spy":23
-      },
-"hanzo":{  
-         "hots-cntr":"hanzo",
-         "hots-pch-nts":"hanzo",
-         "icy-veins":"hanzo",
-         "storm-spy":75
-      },
-"sgthammer":{  
-         "hots-cntr":"sgthammer",
-         "hots-pch-nts":"sgthammer",
-         "icy-veins":"sgt-hammer",
-         "storm-spy":49
-      },
-"illidan":{  
-         "hots-cntr":"illidan",
-         "hots-pch-nts":"illidan",
-         "icy-veins":"illidan",
-         "storm-spy":24
-      },
-"jaina":{  
-         "hots-cntr":"jaina",
-         "hots-pch-nts":"jaina",
-         "icy-veins":"jaina",
-         "storm-spy":25
-      },
-"johanna":{  
-         "hots-cntr":"johanna",
-         "hots-pch-nts":"johanna",
-         "icy-veins":"johanna",
-         "storm-spy":26
-      },
-"junkrat":{  
-         "hots-cntr":"junkrat",
-         "hots-pch-nts":"junkrat",
-         "icy-veins":"junkrat",
-         "storm-spy":73
-      },
-"kaelthas":{  
-         "hots-cntr":"kaelthas",
-         "hots-pch-nts":"kaelthas",
-         "icy-veins":"kaelthas",
-         "storm-spy":27
-      },
-"kelthuzad":{  
-         "hots-cntr":"kelthuzad",
-         "hots-pch-nts":"kelthuzad",
-         "icy-veins":"kel-thuzad",
-         "storm-spy":71
-      },
-"kerrigan":{  
-         "hots-cntr":"kerrigan",
-         "hots-pch-nts":"kerrigan",
-         "icy-veins":"kerrigan",
-         "storm-spy":28
-      },
-"kharazim":{  
-         "hots-cntr":"kharazim",
-         "hots-pch-nts":"kharazim",
-         "icy-veins":"kharazim",
-         "storm-spy":29
-      },
-"leoric":{  
-         "hots-cntr":"leoric",
-         "hots-pch-nts":"leoric",
-         "icy-veins":"leoric",
-         "storm-spy":30
-      },
-"lili":{  
-         "hots-cntr":"lili",
-         "hots-pch-nts":"lili",
-         "icy-veins":"li-li",
-         "storm-spy":31
-      },
-"liming":{  
-         "hots-cntr":"liming",
-         "hots-pch-nts":"liming",
-         "icy-veins":"li-ming",
-         "storm-spy":32
-      },
-"lucio":{  
-         "hots-cntr":"lucio",
-         "hots-pch-nts":"lucio",
-         "icy-veins":"lucio",
-         "storm-spy":34
-      },
-"lunara":{  
-         "hots-cntr":"lunara",
-         "hots-pch-nts":"lunara",
-         "icy-veins":"lunara",
-         "storm-spy":35
-      },
-"malfurion":{  
-         "hots-cntr":"malfurion",
-         "hots-pch-nts":"malfurion",
-         "icy-veins":"malfurion",
-         "storm-spy":36
-      },
-"malthael":{  
-         "hots-cntr":"malthael",
-         "hots-pch-nts":"malthael",
-         "icy-veins":"malthael",
-         "storm-spy":37
-      },
-"medivh":{  
-         "hots-cntr":"medivh",
-         "hots-pch-nts":"medivh",
-         "icy-veins":"medivh",
-         "storm-spy":38
-      },
-"ltmorales":{  
-         "hots-cntr":"ltmorales",
-         "hots-pch-nts":"ltmorales",
-         "icy-veins":"lt-morales",
-         "storm-spy":33
-      },
-"muradin":{  
-         "hots-cntr":"muradin",
-         "hots-pch-nts":"muradin",
-         "icy-veins":"muradin",
-         "storm-spy":39
-      },
-"murky":{  
-         "hots-cntr":"murky",
-         "hots-pch-nts":"murky",
-         "icy-veins":"murky",
-         "storm-spy":40
-      },
-"nazeebo":{  
-         "hots-cntr":"nazeebo",
-         "hots-pch-nts":"nazeebo",
-         "icy-veins":"nazeebo",
-         "storm-spy":41
-      },
-"nova":{  
-         "hots-cntr":"nova",
-         "hots-pch-nts":"nova",
-         "icy-veins":"nova",
-         "storm-spy":42
-      },
-"probius":{  
-         "hots-cntr":"probius",
-         "hots-pch-nts":"probius",
-         "icy-veins":"probius",
-         "storm-spy":43
-      },
-"ragnaros":{  
-         "hots-cntr":"ragnaros",
-         "hots-pch-nts":"ragnaros",
-         "icy-veins":"ragnaros",
-         "storm-spy":44
-      },
-"raynor":{  
-         "hots-cntr":"raynor",
-         "hots-pch-nts":"raynor",
-         "icy-veins":"raynor",
-         "storm-spy":45
-      },
-"rehgar":{  
-         "hots-cntr":"rehgar",
-         "hots-pch-nts":"rehgar",
-         "icy-veins":"rehgar",
-         "storm-spy":46
-      },
-"rexxar":{  
-         "hots-cntr":"rexxar",
-         "hots-pch-nts":"rexxar",
-         "icy-veins":"rexxar",
-         "storm-spy":47
-      },
-"samuro":{  
-         "hots-cntr":"samuro",
-         "hots-pch-nts":"samuro",
-         "icy-veins":"samuro",
-         "storm-spy":48
-      },
-"sonya":{  
-         "hots-cntr":"sonya",
-         "hots-pch-nts":"sonya",
-         "icy-veins":"sonya",
-         "storm-spy":50
-      },
-"stitches":{  
-         "hots-cntr":"stitches",
-         "hots-pch-nts":"stitches",
-         "icy-veins":"stitches",
-         "storm-spy":51
-      },
-"stukov":{  
-         "hots-cntr":"stukov",
-         "hots-pch-nts":"stukov",
-         "icy-veins":"stukov",
-         "storm-spy":52
-      },
-"sylvanas":{  
-         "hots-cntr":"sylvanas",
-         "hots-pch-nts":"sylvanas",
-         "icy-veins":"sylvanas",
-         "storm-spy":53
-      },
-"tassadar":{  
-         "hots-cntr":"tassadar",
-         "hots-pch-nts":"tassadar",
-         "icy-veins":"tassadar",
-         "storm-spy":54
-      },
-"thebutcher":{  
-         "hots-cntr":"thebutcher",
-         "hots-pch-nts":"butcher",
-         "icy-veins":"the-butcher",
-         "storm-spy":55
-      },
-"thrall":{  
-         "hots-cntr":"thrall",
-         "hots-pch-nts":"thrall",
-         "icy-veins":"thrall",
-         "storm-spy":57
-      },
-"thelostvikings":{  
-         "hots-cntr":"thelostvikings",
-         "hots-pch-nts":"thelostvikings",
-         "icy-veins":"the-lost-vikings",
-         "storm-spy":56
-      },
-"tracer":{  
-         "hots-cntr":"tracer",
-         "hots-pch-nts":"tracer",
-         "icy-veins":"tracer",
-         "storm-spy":58
-      },
-"tychus":{  
-         "hots-cntr":"tychus",
-         "hots-pch-nts":"tychus",
-         "icy-veins":"tychus",
-         "storm-spy":59
-      },
-"tyrael":{  
-         "hots-cntr":"tyrael",
-         "hots-pch-nts":"tyrael",
-         "icy-veins":"tyrael",
-         "storm-spy":60
-      },
-"tyrande":{  
-         "hots-cntr":"tyrande",
-         "hots-pch-nts":"tyrande",
-         "icy-veins":"tyrande",
-         "storm-spy":61
-      },
-"uther":{  
-         "hots-cntr":"uther",
-         "hots-pch-nts":"uther",
-         "icy-veins":"uther",
-         "storm-spy":62
-      },
-"valeera":{  
-         "hots-cntr":"valeera",
-         "hots-pch-nts":"valeera",
-         "icy-veins":"valeera",
-         "storm-spy":63
-      },
-"valla":{  
-         "hots-cntr":"valla",
-         "hots-pch-nts":"valla",
-         "icy-veins":"valla",
-         "storm-spy":64
-      },
-"varian":{  
-         "hots-cntr":"varian",
-         "hots-pch-nts":"varian",
-         "icy-veins":"varian",
-         "storm-spy":65
-      },
-"xul":{  
-         "hots-cntr":"xul",
-         "hots-pch-nts":"xul",
-         "icy-veins":"xul",
-         "storm-spy":66
-      },
-"zagara":{  
-         "hots-cntr":"zagara",
-         "hots-pch-nts":"zagara",
-         "icy-veins":"zagara",
-         "storm-spy":67
-      },
-"zarya":{  
-         "hots-cntr":"zarya",
-         "hots-pch-nts":"zarya",
-         "icy-veins":"zarya",
-         "storm-spy":68
-      },
-"zeratul":{  
-         "hots-cntr":"zeratul",
-         "hots-pch-nts":"zeratul",
-         "icy-veins":"zeratul",
-         "storm-spy":69
-      },
-"zuljin":{  
-         "hots-cntr":"zuljin",
-         "hots-pch-nts":"zuljin",
-         "icy-veins":"zuljin",
-         "storm-spy":70
-      }
+{
+	"abathur": {
+		"hots-cntr": "abathur",
+		"hots-pch-nts": "abathur",
+		"icy-veins": "abathur",
+		"storm-spy": 1,
+		"builds": {
+			"Carapace Build": [3, 3, 3, 2, 4, 2, 2],
+			"Locust Strain Build": [2, 3, 3, 1, 2, 3, 4],
+			"Symbiote Build": [1, 4, 1, 1, 4, 1, 3]
+		}
+	},
+	"alarak": {
+		"hots-cntr": "alarak",
+		"hots-pch-nts": "alarak",
+		"icy-veins": "alarak",
+		"storm-spy": 2,
+		"builds": {
+			"Chaos Reigns Build": [2, 1, 3, 2, 3, 3, 4],
+			"Lightning Surge Build": [2, 2, 1, 2, 3, 2, 4]
+		}
+	},
+	"alexstraza": {
+		"hots-cntr": "alexstraza",
+		"hots-pch-nts": "alexstraza",
+		"icy-veins": "alexstraza",
+		"storm-spy": 74,
+		"builds": ""
+	},
+	"ana": {
+		"hots-cntr": "ana",
+		"hots-pch-nts": "ana",
+		"icy-veins": "ana",
+		"storm-spy": 72,
+		"builds": {
+			"All-round Build": [2, 1, 3, 1, 1, 2, 3],
+			"Grenade Build": [1, 3, 2, 1, 1, 3, 3]
+		}
+	},
+	"anubarak": {
+		"hots-cntr": "anubarak",
+		"hots-pch-nts": "anubarak",
+		"icy-veins": "anubarak",
+		"storm-spy": 3,
+		"builds": {
+			"Balanced Build": [2, 1, 2, 2, 3, 1, 4]
+		}
+	},
+	"artanis": {
+		"hots-cntr": "artanis",
+		"hots-pch-nts": "artanis",
+		"icy-veins": "artanis",
+		"storm-spy": 4,
+		"builds": {
+			"Defensive Tank Build": [1, 3, 2, 1, 2, 1, 3],
+			"Prism Bruiser Build": [3, 3, 2, 2, 3, 2, 4],
+			"PvE Objective Build": [2, 3, 4, 1, 2, 2, 4]
+		}
+	},
+	"arthas": {
+		"hots-cntr": "arthas",
+		"hots-pch-nts": "arthas",
+		"icy-veins": "arthas",
+		"storm-spy": 5,
+		"builds": {
+			"Howling Blast Build": [2, 1, 3, 1, 1, 1, 3],
+			"Bruiser Build": [1, 1, 2, 2, 3, 2, 3]
+		}
+	},
+	"auriel": {
+		"hots-cntr": "auriel",
+		"hots-pch-nts": "auriel",
+		"icy-veins": "auriel",
+		"storm-spy": 6,
+		"builds": {
+			"Sacred Sweep Damage Build": [2, 1, 3, 2, 2, 1, 2],
+			"Sacred Sweep Blind Build": [1, 1, 3, 2, 1, 1, 4],
+			"Detainment Strike Build": [4, 2, 3, 2, 4, 1, 2]
+		}
+	},
+	"azmodan": {
+		"hots-cntr": "azmodan",
+		"hots-pch-nts": "azmodan",
+		"icy-veins": "azmodan",
+		"storm-spy": 7,
+		"builds": {
+			"Battleborn Build": [2, 2, 1, 2, 1, 1, 4]
+		}
+	},
+	"brightwing": {
+		"hots-cntr": "brightwing",
+		"hots-pch-nts": "brightwing",
+		"icy-veins": "brightwing",
+		"storm-spy": 8,
+		"builds": {
+			"Teleport Build": [2, 3, 2, 2, 4, 2, 2],
+			"Emerald Wind Build ": [1, 1, 3, 2, 4, 2, 3]
+		}
+	},
+	"cassia": {
+		"hots-cntr": "cassia",
+		"hots-pch-nts": "cassia",
+		"icy-veins": "cassia",
+		"storm-spy": 9,
+		"builds": {
+			"Charged Strikes Build": [3, 2, 1, 1, 1, 3, 3],
+			"Fend Build": [3, 2, 1, 1, 3, 2, 1],
+			"Lightning Fury Build": [1, 2, 1, 1, 2, 1, 1]
+		}
+	},
+	"chen": {
+		"hots-cntr": "chen",
+		"hots-pch-nts": "chen",
+		"icy-veins": "chen",
+		"storm-spy": 10,
+		"builds": {
+			"Bruiser Build": [3, 1, 1, 2, 1, 1, 2],
+			"Anti Mage Build": [3, 3, 3, 2, 3, 3, 2]
+		}
+	},
+	"cho": {
+		"hots-cntr": "chogall",
+		"hots-pch-nts": "cho",
+		"icy-veins": "cho",
+		"storm-spy": 11,
+		"builds": {
+			"Firestarter Build": [3, 3, 2, 1, 1, 1, 4]
+		}
+	},
+	"chromie": {
+		"hots-cntr": "chromie",
+		"hots-pch-nts": "chromie",
+		"icy-veins": "chromie",
+		"storm-spy": 12,
+		"builds": {
+			"Bronze Talons Build": [3, 1, 2, 1, 3, 3, 3]
+		}
+	},
+	"dehaka": {
+		"hots-cntr": "dehaka",
+		"hots-pch-nts": "dehaka",
+		"icy-veins": "dehaka",
+		"storm-spy": 14,
+		"builds": {
+			"Gank Build": [3, 3, 1, 1, 2, 1, 4],
+			"Team Fight Build": [2, 3, 3, 2, 3, 3, 2]
+		}
+	},
+	"diablo": {
+		"hots-cntr": "diablo",
+		"hots-pch-nts": "diablo",
+		"icy-veins": "diablo",
+		"storm-spy": 15,
+		"builds": {
+			"Shadow Charge Build": [2, 1, 3, 1, 2, 2, 4]
+		}
+	},
+	"dva": {
+		"hots-cntr": "dva",
+		"hots-pch-nts": "dva",
+		"icy-veins": "dva",
+		"storm-spy": 13,
+		"builds": {
+			"Mech Mode Boosters Build": [2, 3, 1, 1, 1, 2, 4],
+			"Mech Mode Defense Matrix Build": [4, 2, 2, 1, 1, 2, 4],
+			"Pilot Mode Build": [2, 4, 1, 2, 1, 1, 2]
+		}
+	},
+	"etc": {
+		"hots-cntr": "etc",
+		"hots-pch-nts": "etc",
+		"icy-veins": "e-t-c",
+		"storm-spy": 16,
+		"builds": {
+			"Balanced Build": [3, 2, 2, 1, 3, 3, 5]
+		}
+	},
+	"falstad": {
+		"hots-cntr": "falstad",
+		"hots-pch-nts": "falstad",
+		"icy-veins": "falstad",
+		"storm-spy": 17,
+		"builds": {
+			"Secret Weapon Build": [2, 3, 1, 2, 2, 2, 4],
+			"Magestad Build": [1, 2, 2, 2, 2, 2, 4],
+			"Tazer Build": [3, 1, 3, 2, 1, 3, 4]
+		}
+	},
+	"gall": {
+		"hots-cntr": "chogall",
+		"hots-pch-nts": "gall",
+		"icy-veins": "gall",
+		"storm-spy": 18,
+		"builds": {
+			"Shadowflame Build": [2, 2, 2, 1, 1, 1, 1]
+		}
+	},
+	"garrosh": {
+		"hots-cntr": "garrosh",
+		"hots-pch-nts": "garrosh",
+		"icy-veins": "garrosh",
+		"storm-spy": 19,
+		"builds": {
+			"Decimate Build": [1, 2, 1, 2, 1, 3, 2],
+			"Main Tank Build": [2, 3, 4, 1, 3, 3, 1],
+			"Body Check Build": [3, 2, 3, 2, 3, 3, 4]
+		}
+	},
+	"gazlowe": {
+		"hots-cntr": "gazlowe",
+		"hots-pch-nts": "gazlowe",
+		"icy-veins": "gazlowe",
+		"storm-spy": 20,
+		"builds": {
+			"Lazor Build": [3, 2, 3, 2, 1, 1, 3],
+			"Bruiser Build": [3, 2, 2, 1, 3, 1, 1]
+		}
+	},
+	"genji": {
+		"hots-cntr": "genji",
+		"hots-pch-nts": "genji",
+		"icy-veins": "genji",
+		"storm-spy": 21,
+		"builds": {
+			"Shuriken Build": [2, 1, 2, 2, 1, 1, 4],
+			"Swift Strike Build ": [1, 2, 2, 1, 2, 2, 1]
+		}
+	},
+	"greymane": {
+		"hots-cntr": "greymane",
+		"hots-pch-nts": "greymane",
+		"icy-veins": "greymane",
+		"storm-spy": 22,
+		"builds": {
+			"Cocktail Party Build": [2, 4, 2, 2, 1, 2, 3]
+		}
+	},
+	"guldan": {
+		"hots-cntr": "guldan",
+		"hots-pch-nts": "guldan",
+		"icy-veins": "guldan",
+		"storm-spy": 23,
+		"builds": {
+			"Corruption Build": [3, 2, 1, 1, 4, 2, 1],
+			"Fel Flame Build": [1, 2, 4, 1, 1, 1, 1]
+		}
+	},
+	"hanzo": {
+		"hots-cntr": "hanzo",
+		"hots-pch-nts": "hanzo",
+		"icy-veins": "hanzo",
+		"storm-spy": 75,
+		"builds": ""
+	},
+	"sgthammer": {
+		"hots-cntr": "sgthammer",
+		"hots-pch-nts": "sgthammer",
+		"icy-veins": "sgt-hammer",
+		"storm-spy": 49,
+		"builds": ""
+	},
+	"illidan": {
+		"hots-cntr": "illidan",
+		"hots-pch-nts": "illidan",
+		"icy-veins": "illidan",
+		"storm-spy": 24,
+		"builds": {
+			"Metamorphosis Build": [2, 2, 2, 1, 3, 1, 1],
+			"Standard Split Build": [1, 2, 2, 2, 3, 1, 4]
+		}
+	},
+	"jaina": {
+		"hots-cntr": "jaina",
+		"hots-pch-nts": "jaina",
+		"icy-veins": "jaina",
+		"storm-spy": 25,
+		"builds": {
+			"Frostbolt Build": [3, 1, 2, 2, 3, 3, 3]
+		}
+	},
+	"johanna": {
+		"hots-cntr": "johanna",
+		"hots-pch-nts": "johanna",
+		"icy-veins": "johanna",
+		"storm-spy": 26,
+		"builds": {
+			"Defensive Build ": [3, 2, 3, 2, 2, 1, 3],
+			"Bruiser Build": [2, 3, 3, 1, 2, 1, 3]
+		}
+	},
+	"junkrat": {
+		"hots-cntr": "junkrat",
+		"hots-pch-nts": "junkrat",
+		"icy-veins": "junkrat",
+		"storm-spy": 73,
+		"builds": ""
+	},
+	"kaelthas": {
+		"hots-cntr": "kaelthas",
+		"hots-pch-nts": "kaelthas",
+		"icy-veins": "kaelthas",
+		"storm-spy": 27,
+		"builds": {
+			"Flamestrike Build": [1, 1, 1, 1, 1, 1, 4],
+			"Living Bombs Build": [2, 1, 2, 1, 1, 2, 3]
+		}
+	},
+	"kelthuzad": {
+		"hots-cntr": "kelthuzad",
+		"hots-pch-nts": "kelthuzad",
+		"icy-veins": "kel-thuzad",
+		"storm-spy": 71,
+		"builds": {
+			"Blighted Frost Build": [2, 2, 2, 2, 2, 2, 2],
+			"Plaguelands Build": [1, 2, 2, 1, 2, 2, 4]
+		}
+	},
+	"kerrigan": {
+		"hots-cntr": "kerrigan",
+		"hots-pch-nts": "kerrigan",
+		"icy-veins": "kerrigan",
+		"storm-spy": 28,
+		"builds": {
+			"Pure Damage Build": [2, 2, 3, 1, 2, 2, 4],
+			"Ravage Build": [1, 1, 3, 1, 1, 1, 4]
+		}
+	},
+	"kharazim": {
+		"hots-cntr": "kharazim",
+		"hots-pch-nts": "kharazim",
+		"icy-veins": "kharazim",
+		"storm-spy": 29,
+		"builds": {
+			"Damage Build": [2, 2, 1, 2, 1, 2, 4],
+			"Transcendence Build": [1, 1, 1, 1, 1, 1, 1]
+		}
+	},
+	"leoric": {
+		"hots-cntr": "leoric",
+		"hots-pch-nts": "leoric",
+		"icy-veins": "leoric",
+		"storm-spy": 30,
+		"builds": {
+			"Wraith Walk Build ": [1, 3, 3, 1, 3, 2, 1],
+			"Life Leech Build": [1, 3, 1, 2, 2, 1, 2],
+			"Mithril Mace Build": [1, 1, 2, 1, 2, 3, 3]
+		}
+	},
+	"lili": {
+		"hots-cntr": "lili",
+		"hots-pch-nts": "lili",
+		"icy-veins": "li-li",
+		"storm-spy": 31,
+		"builds": ""
+	},
+	"liming": {
+		"hots-cntr": "liming",
+		"hots-pch-nts": "liming",
+		"icy-veins": "li-ming",
+		"storm-spy": 32,
+		"builds": ""
+	},
+	"lucio": {
+		"hots-cntr": "lucio",
+		"hots-pch-nts": "lucio",
+		"icy-veins": "lucio",
+		"storm-spy": 34,
+		"builds": {
+			"Sound Barrier Build": [3, 3, 1, 1, 3, 1, 3],
+			"Reverse Amp Build": [2, 3, 1, 2, 3, 1, 3]
+		}
+	},
+	"lunara": {
+		"hots-cntr": "lunara",
+		"hots-pch-nts": "lunara",
+		"icy-veins": "lunara",
+		"storm-spy": 35,
+		"builds": {
+			"Basic Attack Build": [3, 1, 2, 2, 4, 2, 4],
+			" Poison Build": [3, 1, 2, 2, 4, 2, 4],
+			" Anti Magic Build": [3, 1, 2, 2, 4, 2, 4]
+		}
+	},
+	"malfurion": {
+		"hots-cntr": "malfurion",
+		"hots-pch-nts": "malfurion",
+		"icy-veins": "malfurion",
+		"storm-spy": 36,
+		"builds": {
+			"General Build": [3, 1, 1, 2, 3, 1, 3],
+			"Moonkin Build": [1, 1, 2, 2, 3, 3, 3]
+		}
+	},
+	"malthael": {
+		"hots-cntr": "malthael",
+		"hots-pch-nts": "malthael",
+		"icy-veins": "malthael",
+		"storm-spy": 37,
+		"builds": {
+			"Soul Rip Build": [3, 1, 1, 1, 1, 1, 3],
+			"Reaper Build": [3, 3, 2, 1, 3, 3, 3]
+		}
+	},
+	"medivh": {
+		"hots-cntr": "medivh",
+		"hots-pch-nts": "medivh",
+		"icy-veins": "medivh",
+		"storm-spy": 38,
+		"builds": {
+			"Raven Build": [1, 2, 2, 1, 1, 3, 1],
+			"Portal Build": [1, 2, 2, 1, 1, 3, 1]
+		}
+	},
+	"ltmorales": {
+		"hots-cntr": "ltmorales",
+		"hots-pch-nts": "ltmorales",
+		"icy-veins": "lt-morales",
+		"storm-spy": 33,
+		"builds": ""
+	},
+	"muradin": {
+		"hots-cntr": "muradin",
+		"hots-pch-nts": "muradin",
+		"icy-veins": "muradin",
+		"storm-spy": 39,
+		"builds": {
+			"Neutral Build": [2, 3, 2, 1, 1, 3, 1],
+			"Dwarf Toss Build": [2, 3, 1, 1, 1, 1, 4]
+		}
+	},
+	"murky": {
+		"hots-cntr": "murky",
+		"hots-pch-nts": "murky",
+		"icy-veins": "murky",
+		"storm-spy": 40,
+		"builds": {
+			"Balanced Build": [3, 3, 1, 2, 1, 2, 3]
+		}
+	},
+	"nazeebo": {
+		"hots-cntr": "nazeebo",
+		"hots-pch-nts": "nazeebo",
+		"icy-veins": "nazeebo",
+		"storm-spy": 41,
+		"builds": {
+			"Toad Build": [2, 2, 3, 1, 3, 3, 4],
+			"Zombie Build": [3, 2, 2, 1, 3, 3, 4]
+		}
+	},
+	"nova": {
+		"hots-cntr": "nova",
+		"hots-pch-nts": "nova",
+		"icy-veins": "nova",
+		"storm-spy": 42,
+		"builds": {
+			"One in The Chamber Build": [1, 1, 1, 2, 1, 2, 3]
+		}
+	},
+	"probius": {
+		"hots-cntr": "probius",
+		"hots-pch-nts": "probius",
+		"icy-veins": "probius",
+		"storm-spy": 43,
+		"builds": {
+			"Disruption Pulse Build": [1, 2, 1, 1, 2, 3, 4],
+			"Photon Cannon Build": [3, 2, 3, 2, 2, 2, 2],
+			"Warp Rift Build": [2, 2, 2, 1, 2, 3, 1]
+		}
+	},
+	"ragnaros": {
+		"hots-cntr": "ragnaros",
+		"hots-pch-nts": "ragnaros",
+		"icy-veins": "ragnaros",
+		"storm-spy": 44,
+		"builds": {
+			"Empower Sulfuras Build": [1, 3, 1, 1, 1, 1, 3],
+			"Living Meteor Build": [2, 2, 2, 1, 1, 2, 3],
+			"Blast Wave Build": [3, 3, 3, 1, 2, 3, 3]
+		}
+	},
+	"raynor": {
+		"hots-cntr": "raynor",
+		"hots-pch-nts": "raynor",
+		"icy-veins": "raynor",
+		"storm-spy": 45,
+		"builds": {
+			"Basic Attack Build": [2, 1, 2, 1, 1, 3, 4]
+		}
+	},
+	"rehgar": {
+		"hots-cntr": "rehgar",
+		"hots-pch-nts": "rehgar",
+		"icy-veins": "rehgar",
+		"storm-spy": 46,
+		"builds": {
+			"AoE Heal Build": [1, 4, 3, 1, 2, 1, 4],
+			"Single Target Protection Build": [3, 4, 3, 1, 1, 1, 4]
+		}
+	},
+	"rexxar": {
+		"hots-cntr": "rexxar",
+		"hots-pch-nts": "rexxar",
+		"icy-veins": "rexxar",
+		"storm-spy": 47,
+		"builds": {
+			"True Survivor Build": [1, 4, 1, 2, 3, 3, 4],
+			"Laning Misha Build": [1, 1, 1, 1, 3, 1, 3]
+		}
+	},
+	"samuro": {
+		"hots-cntr": "samuro",
+		"hots-pch-nts": "samuro",
+		"icy-veins": "samuro",
+		"storm-spy": 48,
+		"builds": {
+			"Harsh Winds Build": [2, 1, 1, 1, 3, 2, 3],
+			"Illusion Master Build": [2, 1, 2, 2, 1, 3, 2]
+		}
+	},
+	"sonya": {
+		"hots-cntr": "sonya",
+		"hots-pch-nts": "sonya",
+		"icy-veins": "sonya",
+		"storm-spy": 50,
+		"builds": {
+			"Whirlwind Build": [2, 3, 1, 2, 1, 4, 4],
+			"Burst Build": [1, 1, 1, 1, 3, 4, 4]
+		}
+	},
+	"stitches": {
+		"hots-cntr": "stitches",
+		"hots-pch-nts": "stitches",
+		"icy-veins": "stitches",
+		"storm-spy": 51,
+		"builds": {
+			"Slam Build": [4, 3, 4, 1, 2, 1, 1],
+			"Sustain Build": [3, 1, 1, 1, 3, 2, 4]
+		}
+	},
+	"stukov": {
+		"hots-cntr": "stukov",
+		"hots-pch-nts": "stukov",
+		"icy-veins": "stukov",
+		"storm-spy": 52,
+		"builds": {
+			"Poppin' Pustules Build": [4, 1, 1, 2, 1, 3, 3],
+			"Lurking Arm Build": [3, 1, 2, 2, 3, 3, 2],
+			"Spine Launcher Build": [1, 4, 4, 2, 4, 2, 3],
+			"Weighted Pustule Build": [2, 1, 1, 2, 1, 3, 2]
+		}
+	},
+	"sylvanas": {
+		"hots-cntr": "sylvanas",
+		"hots-pch-nts": "sylvanas",
+		"icy-veins": "sylvanas",
+		"storm-spy": 53,
+		"builds": {
+			"Shadow Dagger Build": [1, 3, 1, 1, 2, 2, 4]
+		}
+	},
+	"tassadar": {
+		"hots-cntr": "tassadar",
+		"hots-pch-nts": "tassadar",
+		"icy-veins": "tassadar",
+		"storm-spy": 54,
+		"builds": {
+			"Templar's Will Build": [2, 2, 3, 1, 2, 3, 3],
+			"Offensive Support Build": [1, 2, 1, 1, 2, 2, 1]
+		}
+	},
+	"thebutcher": {
+		"hots-cntr": "thebutcher",
+		"hots-pch-nts": "butcher",
+		"icy-veins": "the-butcher",
+		"storm-spy": 55,
+		"builds": ""
+	},
+	"thrall": {
+		"hots-cntr": "thrall",
+		"hots-pch-nts": "thrall",
+		"icy-veins": "thrall",
+		"storm-spy": 57,
+		"builds": {
+			"Standard Sundering Build": [1, 3, 3, 1, 2, 1, 4],
+			"Feral Spirit Build": [1, 2, 3, 2, 1, 3, 4]
+		}
+	},
+	"thelostvikings": {
+		"hots-cntr": "thelostvikings",
+		"hots-pch-nts": "thelostvikings",
+		"icy-veins": "the-lost-vikings",
+		"storm-spy": 56,
+		"builds": ""
+	},
+	"tracer": {
+		"hots-cntr": "tracer",
+		"hots-pch-nts": "tracer",
+		"icy-veins": "tracer",
+		"storm-spy": 58,
+		"builds": {
+			"Burst Damage Build": [1, 1, 1, 2, 1, 1, 1],
+			"Basic Attack Build": [3, 3, 2, 3, 3, 1, 2]
+		}
+	},
+	"tychus": {
+		"hots-cntr": "tychus",
+		"hots-pch-nts": "tychus",
+		"icy-veins": "tychus",
+		"storm-spy": 59,
+		"builds": {
+			"Minigun Build": [1, 1, 1, 2, 1, 1, 2],
+			"Overkill Build": [1, 3, 1, 1, 3, 3, 1]
+		}
+	},
+	"tyrael": {
+		"hots-cntr": "tyrael",
+		"hots-pch-nts": "tyrael",
+		"icy-veins": "tyrael",
+		"storm-spy": 60,
+		"builds": {
+			"Aggressive Build": [1, 1, 2, 1, 1, 2, 1],
+			"Defensive Build": [1, 2, 3, 2, 2, 2, 3]
+		}
+	},
+	"tyrande": {
+		"hots-cntr": "tyrande",
+		"hots-pch-nts": "tyrande",
+		"icy-veins": "tyrande",
+		"storm-spy": 61,
+		"builds": {
+			"Owl Build ": [1, 1, 3, 2, 2, 2, 4],
+			"Lunar Blaze Stun Build ": [2, 1, 3, 1, 3, 2, 4]
+		}
+	},
+	"uther": {
+		"hots-cntr": "uther",
+		"hots-pch-nts": "uther",
+		"icy-veins": "uther",
+		"storm-spy": 62,
+		"builds": {
+			"Holy Radiance Build": [2, 3, 2, 1, 2, 3, 4]
+		}
+	},
+	"valeera": {
+		"hots-cntr": "valeera",
+		"hots-pch-nts": "valeera",
+		"icy-veins": "valeera",
+		"storm-spy": 63,
+		"builds": {
+			"Energy Build": [1, 1, 4, 1, 2, 4, 3],
+			"Garrote Build": [1, 2, 3, 1, 1, 2, 3],
+			"Sinister Strike Build": [1, 1, 1, 1, 1, 1, 3],
+			"Vanish Build": [2, 3, 2, 1, 1, 4, 3]
+		}
+	},
+	"valla": {
+		"hots-cntr": "valla",
+		"hots-pch-nts": "valla",
+		"icy-veins": "valla",
+		"storm-spy": 64,
+		"builds": {
+			"Multishot Build": [3, 2, 1, 1, 2, 1, 1],
+			"Hungering Arrow Build": [1, 1, 3, 2, 1, 1, 4],
+			"Rancor Build": [3, 3, 2, 2, 2, 3, 3]
+		}
+	},
+	"varian": {
+		"hots-cntr": "varian",
+		"hots-pch-nts": "varian",
+		"icy-veins": "varian",
+		"storm-spy": 65,
+		"builds": {
+			"Protection Build": [2, 1, 1, 1, 2, 2, 4],
+			"Arms Build": [3, 1, 1, 2, 1, 3, 2],
+			"Fury Build": [3, 1, 2, 3, 2, 2, 4]
+		}
+	},
+	"xul": {
+		"hots-cntr": "xul",
+		"hots-pch-nts": "xul",
+		"icy-veins": "xul",
+		"storm-spy": 66,
+		"builds": {
+			"Cursed Strikes Build": [1, 2, 1, 2, 2, 1, 2],
+			"Scythe Build": [1, 1, 3, 2, 1, 1, 3],
+			"Skeleton Build ": [2, 3, 3, 2, 3, 2, 4]
+		}
+	},
+	"zagara": {
+		"hots-cntr": "zagara",
+		"hots-pch-nts": "zagara",
+		"icy-veins": "zagara",
+		"storm-spy": 67,
+		"builds": {
+			"Split Push Build": [3, 2, 1, 2, 3, 3, 2],
+			"Team Fight Build": [2, 1, 2, 1, 3, 2, 3]
+		}
+	},
+	"zarya": {
+		"hots-cntr": "zarya",
+		"hots-pch-nts": "zarya",
+		"icy-veins": "zarya",
+		"storm-spy": 68,
+		"builds": {
+			"Anti Melee Build": [3, 3, 3, 2, 4, 3, 4],
+			"Grenadier Build": [1, 2, 1, 2, 4, 1, 4]
+		}
+	},
+	"zeratul": {
+		"hots-cntr": "zeratul",
+		"hots-pch-nts": "zeratul",
+		"icy-veins": "zeratul",
+		"storm-spy": 69,
+		"builds": {
+			"Mobility Build": [2, 3, 3, 2, 3, 3, 4]
+		}
+	},
+	"zuljin": {
+		"hots-cntr": "zuljin",
+		"hots-pch-nts": "zuljin",
+		"icy-veins": "zuljin",
+		"storm-spy": 70,
+		"builds": {
+			"Basic Attack Build": [2, 3, 3, 1, 2, 3, 1],
+			"Twin Cleave Build": [2, 3, 2, 2, 1, 2, 2]
+		}
+	}
 }
