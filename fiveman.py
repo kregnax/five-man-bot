@@ -26,7 +26,6 @@ async def on_ready():
     print(CLIENT.user.id)
     print('--------')
 
-
 @CLIENT.event
 async def on_message(message):
     if(message.content.startswith("!registertag")):
