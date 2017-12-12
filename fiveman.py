@@ -32,7 +32,9 @@ async def on_message(message):
         battletag = message.content.split()[1]
         db_worker.register_discordID_for_battletag(db_worker.get_connection(JAWS_DICT), discordID, battletag)
     if(message.content.startswith("!build")):
-        hero = message.content.split()[1]
+        split_msg = message.content.split()
+        command = split_msg[0]
+        hero = ''.join(split_msg[1:])
         builds = BUILD_BUILDER.get_builds_for_hero(hero)
         await CLIENT.send_message(message.channel, builds)
     if(message.content.startswith("[[")):
