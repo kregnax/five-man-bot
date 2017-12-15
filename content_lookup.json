@@ -253,7 +253,10 @@
 		"hots-pch-nts": "hanzo",
 		"icy-veins": "hanzo",
 		"storm-spy": 75,
-		"builds": []
+		"builds": {
+			"Storm Bow Build": [1,1,2,2,1,2,2],
+			"Scatter Arrow Build": [2,2,3,2,3,2,2]
+		}
 	},
 	"sgthammer": {
 		"hots-cntr": "sgthammer",
