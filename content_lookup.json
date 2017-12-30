@@ -385,8 +385,7 @@
 		"icy-veins": "lucio",
 		"storm-spy": 34,
 		"builds": {
-			"Sound Barrier Build": [3, 3, 1, 1, 3, 1, 3],
-			"Reverse Amp Build": [2, 3, 1, 2, 3, 1, 3]
+			"Sound Barrier Build": [3, 3, 1, 1, 3, 1, 3]
 		}
 	},
 	"lunara": {
@@ -465,8 +464,8 @@
 		"icy-veins": "nazeebo",
 		"storm-spy": 41,
 		"builds": {
-			"Toad Build": [2, 2, 3, 1, 3, 3, 4],
-			"Zombie Build": [3, 2, 2, 1, 3, 3, 4]
+			"Spider Build 2.0": [1, 1, 1, 2, 3, 3, 4]
+			"Toad Build": [2, 2, 3, 1, 3, 3, 4]
 		}
 	},
 	"nova": {
@@ -475,7 +474,9 @@
 		"icy-veins": "nova",
 		"storm-spy": 42,
 		"builds": {
-			"One in The Chamber Build": [1, 1, 1, 2, 1, 2, 3]
+			"Snipe Build": [3, 2, 1, 2, 2, 2, 4],
+			"One in The Chamber Build": [3, 1, 2, 2, 2, 2, 4],
+			"Decoy Build": [1, 2, 3, 2, 2, 3, 4]
 		}
 	},
 	"probius": {
@@ -535,8 +536,7 @@
 		"icy-veins": "samuro",
 		"storm-spy": 48,
 		"builds": {
-			"Harsh Winds Build": [2, 1, 1, 1, 3, 2, 3],
-			"Illusion Master Build": [2, 1, 2, 2, 1, 3, 2]
+			"Wind Walk Build": [3, 2, 3, 2, 3, 3, 3]
 		}
 	},
 	"sonya": {
@@ -676,10 +676,9 @@
 		"icy-veins": "valeera",
 		"storm-spy": 63,
 		"builds": {
-			"Energy Build": [1, 1, 4, 1, 2, 4, 3],
-			"Garrote Build": [1, 2, 3, 1, 1, 2, 3],
-			"Sinister Strike Build": [1, 1, 1, 1, 1, 1, 3],
-			"Vanish Build": [2, 3, 2, 1, 1, 4, 3]
+			"Sinister Strike Build": [1, 1, 1, 2, 3, 1, 4],
+			"Garrote Build": [4, 2, 3, 1, 3, 3, 3],
+			"Energy Build": [1, 1, 2, 1, 1, 3, 4]
 		}
 	},
 	"valla": {
@@ -741,7 +740,9 @@
 		"icy-veins": "zeratul",
 		"storm-spy": 69,
 		"builds": {
-			"Mobility Build": [2, 3, 3, 2, 3, 3, 4]
+			"Warp Build": [2, 3, 3, 1, 2, 1, 1],
+			"Seeker Build": [2, 2, 2, 1, 2, 3, 1],
+			"Wormhole Cleave Build": [1, 1, 1, 2, 2, 2, 4]
 		}
 	},
 	"zuljin": {
