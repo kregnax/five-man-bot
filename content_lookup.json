@@ -90,6 +90,14 @@
 			"Battleborn Build": [2, 2, 1, 2, 1, 1, 4]
 		}
 	},
+	"blaze": {
+		"hots-cntr": "blaze",
+		"hots-pch-nts": "blaze",
+		"icy-veins": "blaze",
+		"storm-spy": 76,
+		"builds": {
+		}
+	},
 	"brightwing": {
 		"hots-cntr": "brightwing",
 		"hots-pch-nts": "brightwing",
