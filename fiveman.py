@@ -2,12 +2,13 @@ import asyncio
 import os
 
 import discord
-
+from discord.ext import commands
 import blizzard
 import db_worker
 import fetch
 import json_loader
 from hots_build_builder import BuildBuilder
+
 
 CLIENT = discord.Client()
 BUILD_BUILDER = BuildBuilder()
@@ -18,67 +19,73 @@ JAWS_DICT = dict(zip(JAWS_VARS, JAWS_VALS))
 TEXT_COMMANDS = db_worker.get_text_commands_dict(db_worker.get_connection(JAWS_DICT))
 
 
-@CLIENT.event
+bot = commands.Bot(command_prefix="!", description=DESCRIPTION)
+
+
+@bot.event
 async def on_ready():
     print('Logged in as')
-    print(CLIENT.user.name)
-    print(CLIENT.user.id)
-    print('--------')
+    print(bot.user.name)
+    print(bot.user.id)
+    print('------')
+    await bot.change_presence(game=discord.Game(name="!help"))
 
-@CLIENT.event
+@bot.event
 async def on_message(message):
-    if(message.content.startswith("!registertag")):
-        discordID = str(message.author)
-        battletag = message.content.split()[1]
-        db_worker.register_discordID_for_battletag(db_worker.get_connection(JAWS_DICT), discordID, battletag)
-    if(message.content.startswith("!build")):
-        split_msg = message.content.split()
-        command = split_msg[0]
-        hero = ''.join(split_msg[1:])
-        builds = BUILD_BUILDER.get_builds_for_hero(hero)
-        await CLIENT.send_message(message.channel, builds)
-    if(message.content.startswith("[[")):
-        info_request = message.content[2:-2].lower()
+    if message.content.startswith("{{") and message.content.endswith("}}"):
+        info_request = message.content.strip("[[").strip("]]").lower()
         msg = BUILD_BUILDER.process_request(info_request)
-        talent = message.content[2:-2].lower()
+        #talent = message[2:-2].lower()
         #description = BUILD_BUILDER.get_talent(talent)
-        await CLIENT.send_message(message.channel, msg)
-    if(message.content.startswith("!addtxtcmd")):
-        if(str(message.author) == "kregnax#2710"):
-            cmd_in = message.content.split()
-            if(cmd_in[0] == "!addtxtcmd"):
-                text_command = cmd_in[1]
-                text_output = ''.join(w + ' ' for w in cmd_in[2:]).strip()
-                TEXT_COMMANDS[text_command] = text_output
-                db_worker.add_new_text_command(db_worker.get_connection(JAWS_DICT), text_command, text_output)
-            else:
-                await CLIENT.send_message(message.channel, "Unrecognized command: {}".format(cmd_in[0]))
-        else:
-            await CLIENT.send_message(message.channel, "You don't have access, fool.")
-    if(message.content == "?text"):
-        commands = 'Available text commands:\n'
-        for k, v in TEXT_COMMANDS.items():
-            commands += "!{}\n".format(k)
-        await CLIENT.send_message(message.channel, commands)
-    if(message.content.startswith('!')):
-        command = str(message.content).split()[0][1:]
-        if(command in TEXT_COMMANDS):
-            await CLIENT.send_message(message.channel, TEXT_COMMANDS[command])
-    if(message.content.startswith('!strong')):
-        hero = message.content.split()[1]
-        counters = fetch.get_strong_counters(hero)
-        await CLIENT.send_message(message.channel, counters)
-    if(message.content.startswith('!weak')):
-        hero = message.content.split()[1]
-        counters = fetch.get_weak_counters(hero)
-        await CLIENT.send_message(message.channel, counters)
-    if(message.content.startswith('!patchfor')):
-        hero = message.content.split()[1]
-        counters = fetch.get_hero_patch_notes(hero)
-        await CLIENT.send_message(message.channel, counters)
-    if(message.content.startswith('!patchnotes')):
-        patch_notes_link = fetch.get_latest_patch_notes()
-        patch_notes_link = '3 most recent patches:\n' + patch_notes_link
-        await CLIENT.send_message(message.channel, patch_notes_link)
+        await bot.send_message(message.channel, msg)
+    await bot.process_commands(message)
 
-CLIENT.run(KEY)
+@bot.command(pass_context=True)
+async def say(ctx, *, message=None):
+    if message is None:
+        await bot.say("Say something, I'm giving up on you.\nI'll be the bot, if you want me to.")
+    else:
+        await bot.say(message)
+
+@bot.command(pass_context=True)
+async def strong(ctx, *, message=None):
+    if message is None:
+        await bot.say("What hero counter are you looking for?")
+    else:
+        counters = fetch.get_strong_counters(message)
+        await bot.say(counters)
+
+@bot.command(pass_context=True)
+async def weak(ctx, *, message=None):
+    if message is None:
+        await bot.say("What hero counter are you looking for?")
+    else:
+        counters = fetch.get_weak_counters(message)
+        await bot.say(counters)
+
+@bot.command(pass_context=True)
+async def patchfor(ctx, *, message=None):
+    if message is None:
+        await bot.say("What hero patchnotes are you looking for?")
+    else:
+        patch = fetch.get_hero_patch_notes(message)
+        await bot.say(patch)
+
+@bot.command(pass_context=True)
+async def build(ctx, *, message=None, aliases=["build", "builds"]):
+    if message is None:
+        await bot.say("What hero build are you looking for?")
+    else:
+        hero = message
+        builds = BUILD_BUILDER.get_builds_for_hero(hero)
+        await bot.say(builds)
+
+@bot.command()
+async def patchnotes():
+    patch_notes_links = fetch.get_latest_patch_notes()
+    patch_notes_links = '3 most recent patches:\n' + patch_notes_links
+    await  bot.say(patch_notes_links)
+
+
+bot.run(KEY)
+
