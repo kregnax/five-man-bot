@@ -96,6 +96,7 @@
 		"icy-veins": "blaze",
 		"storm-spy": 76,
 		"builds": {
+			"Ignite Build": [3, 2, 2, 2,3, 2, 2]
 		}
 	},
 	"brightwing": {
