@@ -1,23 +1,17 @@
 import asyncio
 import os
-
 import discord
 from discord.ext import commands
-import blizzard
-import db_worker
+# from cogs.utils import checks
 import fetch
+import db_worker
 from hots_build_builder import BuildBuilder
+# import logging
 
-
-CLIENT = discord.Client()
-BUILD_BUILDER = BuildBuilder()
 KEY = os.environ.get('FIVE_MAN')#JSON_KEYS['five-man']
-JAWS_VARS = ['JAWSDB_NAME', 'JAWSDB_PASS', 'JAWSDB_HOST', 'JAWSDB_USER']
-JAWS_VALS = [os.environ.get(key) for key in JAWS_VARS]
-JAWS_DICT = dict(zip(JAWS_VARS, JAWS_VALS))
-TEXT_COMMANDS = db_worker.get_text_commands_dict(db_worker.get_connection(JAWS_DICT))
-DESCRIPTION = "A bot for the FiveManPush server. Responds to commands, doesn't stand for shenanigans."
+BUILD_BUILDER = BuildBuilder()
 
+DESCRIPTION = '''A bot with info'''
 bot = commands.Bot(command_prefix="!", description=DESCRIPTION)
 
 
@@ -27,7 +21,7 @@ async def on_ready():
     print(bot.user.name)
     print(bot.user.id)
     print('------')
-    await bot.change_presence(game=discord.Game(name="Waiting for !help"))
+    await bot.change_presence(game=discord.Game(name="!help"))
 
 @bot.event
 async def on_message(message):
@@ -41,7 +35,6 @@ async def on_message(message):
 
 @bot.command(pass_context=True)
 async def say(ctx, *, message=None):
-    '''Repeats your inane message back to you.'''
     if message is None:
         await bot.say("Say something, I'm giving up on you.\nI'll be the bot, if you want me to.")
     else:
@@ -49,7 +42,6 @@ async def say(ctx, *, message=None):
 
 @bot.command(pass_context=True)
 async def strong(ctx, *, message=None):
-    '''Shows which heroes a given hero is strong against.'''
     if message is None:
         await bot.say("What hero counter are you looking for?")
     else:
@@ -58,7 +50,6 @@ async def strong(ctx, *, message=None):
 
 @bot.command(pass_context=True)
 async def weak(ctx, *, message=None):
-    '''Shows which heroes a given hero is weak against.'''
     if message is None:
         await bot.say("What hero counter are you looking for?")
     else:
@@ -67,7 +58,6 @@ async def weak(ctx, *, message=None):
 
 @bot.command(pass_context=True)
 async def patchfor(ctx, *, message=None):
-    '''Shows the most recent patch info for a given hero.'''    
     if message is None:
         await bot.say("What hero patchnotes are you looking for?")
     else:
@@ -76,7 +66,6 @@ async def patchfor(ctx, *, message=None):
 
 @bot.command(pass_context=True)
 async def build(ctx, *, message=None, aliases=["build", "builds"]):
-    '''Displays builds for a given hero.'''
     if message is None:
         await bot.say("What hero build are you looking for?")
     else:
@@ -86,11 +75,9 @@ async def build(ctx, *, message=None, aliases=["build", "builds"]):
 
 @bot.command()
 async def patchnotes():
-    '''Shows the 3 most recent patches.'''
     patch_notes_links = fetch.get_latest_patch_notes()
     patch_notes_links = '3 most recent patches:\n' + patch_notes_links
     await  bot.say(patch_notes_links)
 
 
 bot.run(KEY)
-
