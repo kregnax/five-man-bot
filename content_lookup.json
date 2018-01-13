@@ -233,7 +233,7 @@
 		"icy-veins": "genji",
 		"storm-spy": 21,
 		"builds": {
-			"Shuriken Build": [2, 1, 2, 2, 1, 1, 4],
+			"Shuriken Build": [2, 1, 2, 1, 1, 1, 4],
 			"Swift Strike Build ": [1, 2, 2, 1, 2, 2, 1]
 		}
 	},
@@ -261,9 +261,10 @@
 		"hots-pch-nts": "hanzo",
 		"icy-veins": "hanzo",
 		"storm-spy": 75,
-		"builds": {
-			"Storm Bow Build": [1,1,2,2,1,2,2],
-			"Scatter Arrow Build": [2,2,3,2,3,2,2]
+		"builds": {			
+			"Basic Attack Build": [3, 3, 3, 2, 1, 1, 2],
+			"Scatter Arrow Build": [2, 2, 2, 2, 3, 2, 2],
+			"Storm Bow Build": [1, 1, 1, 2, 2, 2, 2]
 		}
 	},
 	"sgthammer": {
@@ -272,7 +273,7 @@
 		"icy-veins": "sgt-hammer",
 		"storm-spy": 49,
 		"builds": {
-			"Siege Build": [3,1,3,2,2,3,2]
+			"Siege Build": [3, 1, 3, 2, 2, 3, 2]
 		}
 	},
 	"illidan": {
@@ -362,8 +363,7 @@
 		"storm-spy": 30,
 		"builds": {
 			"Wraith Walk Build ": [1, 3, 3, 1, 3, 2, 1],
-			"Life Leech Build": [1, 3, 1, 2, 2, 1, 2],
-			"Mithril Mace Build": [1, 1, 2, 1, 2, 3, 3]
+			"Life Leech Build": [1, 3, 3, 2, 2, 1, 4]
 		}
 	},
 	"lili": {
@@ -413,8 +413,7 @@
 		"icy-veins": "malfurion",
 		"storm-spy": 36,
 		"builds": {
-			"General Build": [3, 1, 1, 2, 3, 1, 3],
-			"Moonkin Build": [1, 1, 2, 2, 3, 3, 3]
+			"Balanced Build": [1, 2, 1, 2, 3, 2, 4]
 		}
 	},
 	"malthael": {
