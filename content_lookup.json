@@ -243,7 +243,7 @@
 		"icy-veins": "greymane",
 		"storm-spy": 22,
 		"builds": {
-			"Cocktail Party Build": [2, 4, 2, 2, 1, 2, 3]
+			"Cocktail Party Build": [2, 4, 2, 1, 1, 2, 3]
 		}
 	},
 	"guldan": {
@@ -267,15 +267,6 @@
 			"Storm Bow Build": [1, 1, 1, 2, 2, 2, 2]
 		}
 	},
-	"sgthammer": {
-		"hots-cntr": "sgthammer",
-		"hots-pch-nts": "sgthammer",
-		"icy-veins": "sgt-hammer",
-		"storm-spy": 49,
-		"builds": {
-			"Siege Build": [3, 1, 3, 2, 2, 3, 2]
-		}
-	},
 	"illidan": {
 		"hots-cntr": "illidan",
 		"hots-pch-nts": "illidan",
@@ -292,7 +283,7 @@
 		"icy-veins": "jaina",
 		"storm-spy": 25,
 		"builds": {
-			"Frostbolt Build": [3, 1, 2, 2, 3, 3, 3]
+			"Frostbolt Build": [3, 1, 2, 2, 3, 3, 2]
 		}
 	},
 	"johanna": {
@@ -382,9 +373,9 @@
 		"icy-veins": "li-ming",
 		"storm-spy": 32,
 		"builds": {
-			"Calamity Build": [2,3,3,1,2,2,3],
-			"Orb Build": [2,2,2,1,2,3,3],
-			"Missiles Build": [1,1,1,1,1,2,1]
+			"Calamity Build": [2, 3, 3, 2, 3, 2, 3],
+			"Orb Build": [2, 2, 2, 2, 2, 3, 3],
+			"Missiles Build": [1, 1, 1, 1, 1, 2, 1]
 		}
 	},
 	"lucio": {
@@ -423,7 +414,7 @@
 		"storm-spy": 37,
 		"builds": {
 			"Soul Rip Build": [3, 1, 1, 1, 1, 1, 3],
-			"Reaper Build": [3, 3, 2, 1, 3, 3, 3]
+			"Reaper Build": [3, 3, 1, 1, 1, 3, 3]
 		}
 	},
 	"medivh": {
@@ -505,7 +496,7 @@
 		"builds": {
 			"Empower Sulfuras Build": [1, 3, 1, 1, 1, 1, 3],
 			"Living Meteor Build": [2, 2, 2, 1, 1, 2, 3],
-			"Blast Wave Build": [3, 3, 3, 1, 2, 3, 3]
+			"Blast Wave Build": [3, 2, 3, 1, 2, 3, 3]
 		}
 	},
 	"raynor": {
@@ -544,6 +535,15 @@
 		"storm-spy": 48,
 		"builds": {
 			"Wind Walk Build": [3, 2, 3, 2, 3, 3, 3]
+		}
+	},
+	"sgthammer": {
+		"hots-cntr": "sgthammer",
+		"hots-pch-nts": "sgthammer",
+		"icy-veins": "sgt-hammer",
+		"storm-spy": 49,
+		"builds": {
+			"Siege Build": [3, 1, 3, 2, 2, 3, 2]
 		}
 	},
 	"sonya": {
@@ -674,7 +674,7 @@
 		"icy-veins": "uther",
 		"storm-spy": 62,
 		"builds": {
-			"Holy Radiance Build": [2, 3, 2, 1, 2, 3, 4]
+			"Holy Radiance Build": [2, 3, 2, 1, 2, 3, 3]
 		}
 	},
 	"valeera": {
