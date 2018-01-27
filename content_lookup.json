@@ -96,6 +96,8 @@
 		"icy-veins": "blaze",
 		"storm-spy": 76,
 		"builds": {
+			"Ignite Build": [3, 2, 2, 2, 3, 2, 2],
+			"Pyromania Build": [4, 4, 2, 2, 3, 2, 3]
 		}
 	},
 	"brightwing": {
@@ -396,6 +398,16 @@
 			"Basic Attack Build": [3, 1, 2, 2, 4, 2, 4],
 			" Poison Build": [3, 1, 2, 2, 4, 2, 4],
 			" Anti Magic Build": [3, 1, 2, 2, 4, 2, 4]
+		}
+	},
+	"maiev": {
+		"hots-cntr": "maiev",
+		"hots-pch-nts": "maiev",
+		"icy-veins": "maiev",
+		"storm-spy": 77,
+		"builds": {
+			"Build": [1, 1, 1, 1, 1, 1, 1],
+			"Build": [1, 1, 1, 1, 1, 1, 1]
 		}
 	},
 	"malfurion": {
