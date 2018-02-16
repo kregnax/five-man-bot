@@ -666,8 +666,9 @@
 		"icy-veins": "tyrael",
 		"storm-spy": 60,
 		"builds": {
-			"Aggressive Build": [1, 1, 2, 1, 1, 2, 1],
-			"Defensive Build": [1, 2, 3, 2, 2, 2, 3]
+			"Bruiser Build": [2, 2, 3, 1, 2, 1, 1],
+			"Tank Build": [2, 1, 3, 2, 2, 1, 3], 
+			"AA Build": [2, 3, 2, 1, 3, 3, 4]
 		}
 	},
 	"tyrande": {
