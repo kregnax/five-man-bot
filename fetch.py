@@ -65,8 +65,8 @@ def get_hero_patch_notes(hero):
         page = requests.get(url, verify=False)
         soup = BeautifulSoup(page.text, 'html.parser')
         notes_list = []
-        for elem in soup.find("div", class_="panel panel-primary").find_all("li"):
-            notes_list.append(elem.get_text())
+        for elem in soup.find("div", class_="panel-body table-responsive").find_all("li"):
+            notes_list.append(elem.get_text().replace("\n\n", "\n"))
     else:
         return "Not a valid hero"
     return '\n'.join(notes_list)
