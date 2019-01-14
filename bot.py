@@ -41,6 +41,13 @@ async def say(ctx, *, message=None):
         await bot.say(message)
 
 @bot.command(pass_context=True)
+async def feeder(ctx, *, message=None):
+    if message is None:
+        await bot.say("Say something, I'm giving up on you.\nI'll be the bot, if you want me to.")
+    else:
+        await bot.say("Pink goat it baaaaaaaaawwwwwdddddd...")
+        
+@bot.command(pass_context=True)
 async def strong(ctx, *, message=None):
     if message is None:
         await bot.say("What hero counter are you looking for?")
